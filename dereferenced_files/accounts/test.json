@@ -1,0 +1,6475 @@
+},
+"writeOnly": {
+    "compatible": true,
+    "incompatible": false,
+    "unchanged": true,
+    "different": false
+},
+"changedType": false,
+"maxLength": {
+    "context": {
+        "url": "/accounts/{accountId}/overdraft-limits",
+        "parameters": {},
+        "method": "GET",
+        "response": true,
+        "request": false,
+        "required": false
+    },
+    "compatible": true,
+    "incompatible": false,
+    "unchanged": true,
+    "different": false
+},
+"discriminatorPropertyChanged": false,
+"changedElements": [
+    null,
+    {
+        "compatible": true,
+        "incompatible": false,
+        "unchanged": true,
+        "different": false
+    },
+    {
+        "compatible": true,
+        "incompatible": false,
+        "unchanged": true,
+        "different": false
+    },
+    null,
+    null,
+    null,
+    {
+        "context": {
+            "url": "/accounts/{accountId}/overdraft-limits",
+            "parameters": {},
+            "method": "GET",
+            "response": true,
+            "request": false,
+            "required": false
+        },
+        "oldValue": [],
+        "newValue": [],
+        "increased": [],
+        "missing": [],
+        "shared": [],
+        "compatible": true,
+        "incompatible": false,
+        "unchanged": true,
+        "different": false
+    },
+    {
+        "context": {
+            "url": "/accounts/{accountId}/overdraft-limits",
+            "parameters": {},
+            "method": "GET",
+            "response": true,
+            "request": false,
+            "required": false
+        },
+        "oldValue": [
+            "requestDateTime",
+            "totalPages",
+            "totalRecords"
+        ],
+        "newValue": [
+            "requestDateTime"
+        ],
+        "increased": [],
+        "missing": [
+            "totalPages",
+            "totalRecords"
+        ],
+        "shared": [
+            "requestDateTime"
+        ],
+        "compatible": false,
+        "incompatible": true,
+        "unchanged": false,
+        "different": true
+    },
+    {
+        "context": {
+            "url": "/accounts/{accountId}/overdraft-limits",
+            "parameters": {},
+            "method": "GET",
+            "response": true,
+            "request": false,
+            "required": false
+        },
+        "compatible": true,
+        "incompatible": false,
+        "unchanged": true,
+        "different": false
+    },
+    null
+],
+"compatible": false,
+"incompatible": true,
+"unchanged": false,
+"different": true
+}
+},
+"increasedProperties": {},
+"missingProperties": {},
+"changeDeprecated": false,
+"changeTitle": false,
+"required": {
+"context": {
+"url": "/accounts/{accountId}/overdraft-limits",
+"parameters": {},
+"method": "GET",
+"response": true,
+"request": false,
+"required": true
+},
+"oldValue": [
+"errors"
+],
+"newValue": [
+"errors"
+],
+"increased": [],
+"missing": [],
+"shared": [
+"errors"
+],
+"compatible": true,
+"incompatible": false,
+"unchanged": true,
+"different": false
+},
+"changeDefault": false,
+"enumeration": {
+"context": {
+"url": "/accounts/{accountId}/overdraft-limits",
+"parameters": {},
+"method": "GET",
+"response": true,
+"request": false,
+"required": true
+},
+"oldValue": [],
+"newValue": [],
+"increased": [],
+"missing": [],
+"shared": [],
+"compatible": true,
+"incompatible": false,
+"unchanged": true,
+"different": false
+},
+"changeFormat": false,
+"readOnly": {
+"compatible": true,
+"incompatible": false,
+"unchanged": true,
+"different": false
+},
+"writeOnly": {
+"compatible": true,
+"incompatible": false,
+"unchanged": true,
+"different": false
+},
+"changedType": false,
+"maxLength": {
+"context": {
+"url": "/accounts/{accountId}/overdraft-limits",
+"parameters": {},
+"method": "GET",
+"response": true,
+"request": false,
+"required": true
+},
+"compatible": true,
+"incompatible": false,
+"unchanged": true,
+"different": false
+},
+"discriminatorPropertyChanged": false,
+"changedElements": [
+{
+"context": {
+    "url": "/accounts/{accountId}/overdraft-limits",
+    "parameters": {},
+    "method": "GET",
+    "response": true,
+    "request": false,
+    "required": false
+},
+"oldSchema": {
+    "required": [
+        "requestDateTime",
+        "totalPages",
+        "totalRecords"
+    ],
+    "type": "object",
+    "properties": {
+        "totalRecords": {
+            "type": "integer",
+            "description": "Número total de registros no resultado",
+            "format": "int32",
+            "example": 1,
+            "exampleSetFlag": true
+        },
+        "totalPages": {
+            "type": "integer",
+            "description": "Número total de páginas no resultado",
+            "format": "int32",
+            "example": 1,
+            "exampleSetFlag": true
+        },
+        "requestDateTime": {
+            "maxLength": 20,
+            "type": "string",
+            "description": "Data e hora da consulta, conforme especificação RFC-3339, formato UTC.",
+            "exampleSetFlag": false
+        }
+    },
+    "additionalProperties": false,
+    "description": "Meta informações referente à API requisitada.",
+    "exampleSetFlag": false
+},
+"newSchema": {
+    "required": [
+        "requestDateTime"
+    ],
+    "type": "object",
+    "properties": {
+        "requestDateTime": {
+            "maxLength": 20,
+            "type": "string",
+            "description": "Data e hora da consulta, conforme especificação RFC-3339, formato UTC.",
+            "exampleSetFlag": false
+        }
+    },
+    "description": "Meta informações referente à API requisitada.",
+    "exampleSetFlag": false
+},
+"changedProperties": {},
+"increasedProperties": {},
+"missingProperties": {
+    "totalRecords": {
+        "type": "integer",
+        "description": "Número total de registros no resultado",
+        "format": "int32",
+        "example": 1,
+        "exampleSetFlag": true
+    },
+    "totalPages": {
+        "type": "integer",
+        "description": "Número total de páginas no resultado",
+        "format": "int32",
+        "example": 1,
+        "exampleSetFlag": true
+    }
+},
+"changeDeprecated": false,
+"changeTitle": false,
+"required": {
+    "context": {
+        "url": "/accounts/{accountId}/overdraft-limits",
+        "parameters": {},
+        "method": "GET",
+        "response": true,
+        "request": false,
+        "required": false
+    },
+    "oldValue": [
+        "requestDateTime",
+        "totalPages",
+        "totalRecords"
+    ],
+    "newValue": [
+        "requestDateTime"
+    ],
+    "increased": [],
+    "missing": [
+        "totalPages",
+        "totalRecords"
+    ],
+    "shared": [
+        "requestDateTime"
+    ],
+    "compatible": false,
+    "incompatible": true,
+    "unchanged": false,
+    "different": true
+},
+"changeDefault": false,
+"enumeration": {
+    "context": {
+        "url": "/accounts/{accountId}/overdraft-limits",
+        "parameters": {},
+        "method": "GET",
+        "response": true,
+        "request": false,
+        "required": false
+    },
+    "oldValue": [],
+    "newValue": [],
+    "increased": [],
+    "missing": [],
+    "shared": [],
+    "compatible": true,
+    "incompatible": false,
+    "unchanged": true,
+    "different": false
+},
+"changeFormat": false,
+"readOnly": {
+    "compatible": true,
+    "incompatible": false,
+    "unchanged": true,
+    "different": false
+},
+"writeOnly": {
+    "compatible": true,
+    "incompatible": false,
+    "unchanged": true,
+    "different": false
+},
+"changedType": false,
+"maxLength": {
+    "context": {
+        "url": "/accounts/{accountId}/overdraft-limits",
+        "parameters": {},
+        "method": "GET",
+        "response": true,
+        "request": false,
+        "required": false
+    },
+    "compatible": true,
+    "incompatible": false,
+    "unchanged": true,
+    "different": false
+},
+"discriminatorPropertyChanged": false,
+"changedElements": [
+    null,
+    {
+        "compatible": true,
+        "incompatible": false,
+        "unchanged": true,
+        "different": false
+    },
+    {
+        "compatible": true,
+        "incompatible": false,
+        "unchanged": true,
+        "different": false
+    },
+    null,
+    null,
+    null,
+    {
+        "context": {
+            "url": "/accounts/{accountId}/overdraft-limits",
+            "parameters": {},
+            "method": "GET",
+            "response": true,
+            "request": false,
+            "required": false
+        },
+        "oldValue": [],
+        "newValue": [],
+        "increased": [],
+        "missing": [],
+        "shared": [],
+        "compatible": true,
+        "incompatible": false,
+        "unchanged": true,
+        "different": false
+    },
+    {
+        "context": {
+            "url": "/accounts/{accountId}/overdraft-limits",
+            "parameters": {},
+            "method": "GET",
+            "response": true,
+            "request": false,
+            "required": false
+        },
+        "oldValue": [
+            "requestDateTime",
+            "totalPages",
+            "totalRecords"
+        ],
+        "newValue": [
+            "requestDateTime"
+        ],
+        "increased": [],
+        "missing": [
+            "totalPages",
+            "totalRecords"
+        ],
+        "shared": [
+            "requestDateTime"
+        ],
+        "compatible": false,
+        "incompatible": true,
+        "unchanged": false,
+        "different": true
+    },
+    {
+        "context": {
+            "url": "/accounts/{accountId}/overdraft-limits",
+            "parameters": {},
+            "method": "GET",
+            "response": true,
+            "request": false,
+            "required": false
+        },
+        "compatible": true,
+        "incompatible": false,
+        "unchanged": true,
+        "different": false
+    },
+    null
+],
+"compatible": false,
+"incompatible": true,
+"unchanged": false,
+"different": true
+},
+null,
+{
+"compatible": true,
+"incompatible": false,
+"unchanged": true,
+"different": false
+},
+{
+"compatible": true,
+"incompatible": false,
+"unchanged": true,
+"different": false
+},
+null,
+null,
+null,
+{
+"context": {
+    "url": "/accounts/{accountId}/overdraft-limits",
+    "parameters": {},
+    "method": "GET",
+    "response": true,
+    "request": false,
+    "required": true
+},
+"oldValue": [],
+"newValue": [],
+"increased": [],
+"missing": [],
+"shared": [],
+"compatible": true,
+"incompatible": false,
+"unchanged": true,
+"different": false
+},
+{
+"context": {
+    "url": "/accounts/{accountId}/overdraft-limits",
+    "parameters": {},
+    "method": "GET",
+    "response": true,
+    "request": false,
+    "required": true
+},
+"oldValue": [
+    "errors"
+],
+"newValue": [
+    "errors"
+],
+"increased": [],
+"missing": [],
+"shared": [
+    "errors"
+],
+"compatible": true,
+"incompatible": false,
+"unchanged": true,
+"different": false
+},
+{
+"context": {
+    "url": "/accounts/{accountId}/overdraft-limits",
+    "parameters": {},
+    "method": "GET",
+    "response": true,
+    "request": false,
+    "required": true
+},
+"compatible": true,
+"incompatible": false,
+"unchanged": true,
+"different": false
+},
+null
+],
+"compatible": false,
+"incompatible": true,
+"unchanged": false,
+"different": true
+},
+"changedElements": [
+{
+"context": {
+"url": "/accounts/{accountId}/overdraft-limits",
+"parameters": {},
+"method": "GET",
+"response": true,
+"request": false,
+"required": true
+},
+"oldSchema": {
+"required": [
+    "errors"
+],
+"type": "object",
+"properties": {
+    "errors": {
+        "maxItems": 13,
+        "minItems": 1,
+        "type": "array",
+        "exampleSetFlag": false,
+        "items": {
+            "required": [
+                "code",
+                "detail",
+                "title"
+            ],
+            "type": "object",
+            "properties": {
+                "code": {
+                    "maxLength": 255,
+                    "pattern": "[\\w\\W\\s]*",
+                    "type": "string",
+                    "description": "Código de erro específico do endpoint",
+                    "exampleSetFlag": false
+                },
+                "title": {
+                    "maxLength": 255,
+                    "pattern": "[\\w\\W\\s]*",
+                    "type": "string",
+                    "description": "Título legível por humanos deste erro específico",
+                    "exampleSetFlag": false
+                },
+                "detail": {
+                    "maxLength": 2048,
+                    "pattern": "[\\w\\W\\s]*",
+                    "type": "string",
+                    "description": "Descrição legível por humanos deste erro específico",
+                    "exampleSetFlag": false
+                }
+            },
+            "additionalProperties": false,
+            "exampleSetFlag": false
+        }
+    },
+    "meta": {
+        "required": [
+            "requestDateTime",
+            "totalPages",
+            "totalRecords"
+        ],
+        "type": "object",
+        "properties": {
+            "totalRecords": {
+                "type": "integer",
+                "description": "Número total de registros no resultado",
+                "format": "int32",
+                "example": 1,
+                "exampleSetFlag": true
+            },
+            "totalPages": {
+                "type": "integer",
+                "description": "Número total de páginas no resultado",
+                "format": "int32",
+                "example": 1,
+                "exampleSetFlag": true
+            },
+            "requestDateTime": {
+                "maxLength": 20,
+                "type": "string",
+                "description": "Data e hora da consulta, conforme especificação RFC-3339, formato UTC.",
+                "exampleSetFlag": false
+            }
+        },
+        "additionalProperties": false,
+        "description": "Meta informações referente à API requisitada.",
+        "exampleSetFlag": false
+    }
+},
+"additionalProperties": false,
+"exampleSetFlag": false
+},
+"newSchema": {
+"required": [
+    "errors"
+],
+"type": "object",
+"properties": {
+    "errors": {
+        "maxItems": 13,
+        "minItems": 1,
+        "type": "array",
+        "exampleSetFlag": false,
+        "items": {
+            "required": [
+                "code",
+                "detail",
+                "title"
+            ],
+            "type": "object",
+            "properties": {
+                "code": {
+                    "maxLength": 255,
+                    "pattern": "[\\w\\W\\s]*",
+                    "type": "string",
+                    "description": "Código de erro específico do endpoint",
+                    "exampleSetFlag": false
+                },
+                "title": {
+                    "maxLength": 255,
+                    "pattern": "[\\w\\W\\s]*",
+                    "type": "string",
+                    "description": "Título legível por humanos deste erro específico",
+                    "exampleSetFlag": false
+                },
+                "detail": {
+                    "maxLength": 2048,
+                    "pattern": "[\\w\\W\\s]*",
+                    "type": "string",
+                    "description": "Descrição legível por humanos deste erro específico",
+                    "exampleSetFlag": false
+                }
+            },
+            "exampleSetFlag": false
+        }
+    },
+    "meta": {
+        "required": [
+            "requestDateTime"
+        ],
+        "type": "object",
+        "properties": {
+            "requestDateTime": {
+                "maxLength": 20,
+                "type": "string",
+                "description": "Data e hora da consulta, conforme especificação RFC-3339, formato UTC.",
+                "exampleSetFlag": false
+            }
+        },
+        "description": "Meta informações referente à API requisitada.",
+        "exampleSetFlag": false
+    }
+},
+"exampleSetFlag": false
+},
+"changedProperties": {
+"meta": {
+    "context": {
+        "url": "/accounts/{accountId}/overdraft-limits",
+        "parameters": {},
+        "method": "GET",
+        "response": true,
+        "request": false,
+        "required": false
+    },
+    "oldSchema": {
+        "required": [
+            "requestDateTime",
+            "totalPages",
+            "totalRecords"
+        ],
+        "type": "object",
+        "properties": {
+            "totalRecords": {
+                "type": "integer",
+                "description": "Número total de registros no resultado",
+                "format": "int32",
+                "example": 1,
+                "exampleSetFlag": true
+            },
+            "totalPages": {
+                "type": "integer",
+                "description": "Número total de páginas no resultado",
+                "format": "int32",
+                "example": 1,
+                "exampleSetFlag": true
+            },
+            "requestDateTime": {
+                "maxLength": 20,
+                "type": "string",
+                "description": "Data e hora da consulta, conforme especificação RFC-3339, formato UTC.",
+                "exampleSetFlag": false
+            }
+        },
+        "additionalProperties": false,
+        "description": "Meta informações referente à API requisitada.",
+        "exampleSetFlag": false
+    },
+    "newSchema": {
+        "required": [
+            "requestDateTime"
+        ],
+        "type": "object",
+        "properties": {
+            "requestDateTime": {
+                "maxLength": 20,
+                "type": "string",
+                "description": "Data e hora da consulta, conforme especificação RFC-3339, formato UTC.",
+                "exampleSetFlag": false
+            }
+        },
+        "description": "Meta informações referente à API requisitada.",
+        "exampleSetFlag": false
+    },
+    "changedProperties": {},
+    "increasedProperties": {},
+    "missingProperties": {
+        "totalRecords": {
+            "type": "integer",
+            "description": "Número total de registros no resultado",
+            "format": "int32",
+            "example": 1,
+            "exampleSetFlag": true
+        },
+        "totalPages": {
+            "type": "integer",
+            "description": "Número total de páginas no resultado",
+            "format": "int32",
+            "example": 1,
+            "exampleSetFlag": true
+        }
+    },
+    "changeDeprecated": false,
+    "changeTitle": false,
+    "required": {
+        "context": {
+            "url": "/accounts/{accountId}/overdraft-limits",
+            "parameters": {},
+            "method": "GET",
+            "response": true,
+            "request": false,
+            "required": false
+        },
+        "oldValue": [
+            "requestDateTime",
+            "totalPages",
+            "totalRecords"
+        ],
+        "newValue": [
+            "requestDateTime"
+        ],
+        "increased": [],
+        "missing": [
+            "totalPages",
+            "totalRecords"
+        ],
+        "shared": [
+            "requestDateTime"
+        ],
+        "compatible": false,
+        "incompatible": true,
+        "unchanged": false,
+        "different": true
+    },
+    "changeDefault": false,
+    "enumeration": {
+        "context": {
+            "url": "/accounts/{accountId}/overdraft-limits",
+            "parameters": {},
+            "method": "GET",
+            "response": true,
+            "request": false,
+            "required": false
+        },
+        "oldValue": [],
+        "newValue": [],
+        "increased": [],
+        "missing": [],
+        "shared": [],
+        "compatible": true,
+        "incompatible": false,
+        "unchanged": true,
+        "different": false
+    },
+    "changeFormat": false,
+    "readOnly": {
+        "compatible": true,
+        "incompatible": false,
+        "unchanged": true,
+        "different": false
+    },
+    "writeOnly": {
+        "compatible": true,
+        "incompatible": false,
+        "unchanged": true,
+        "different": false
+    },
+    "changedType": false,
+    "maxLength": {
+        "context": {
+            "url": "/accounts/{accountId}/overdraft-limits",
+            "parameters": {},
+            "method": "GET",
+            "response": true,
+            "request": false,
+            "required": false
+        },
+        "compatible": true,
+        "incompatible": false,
+        "unchanged": true,
+        "different": false
+    },
+    "discriminatorPropertyChanged": false,
+    "changedElements": [
+        null,
+        {
+            "compatible": true,
+            "incompatible": false,
+            "unchanged": true,
+            "different": false
+        },
+        {
+            "compatible": true,
+            "incompatible": false,
+            "unchanged": true,
+            "different": false
+        },
+        null,
+        null,
+        null,
+        {
+            "context": {
+                "url": "/accounts/{accountId}/overdraft-limits",
+                "parameters": {},
+                "method": "GET",
+                "response": true,
+                "request": false,
+                "required": false
+            },
+            "oldValue": [],
+            "newValue": [],
+            "increased": [],
+            "missing": [],
+            "shared": [],
+            "compatible": true,
+            "incompatible": false,
+            "unchanged": true,
+            "different": false
+        },
+        {
+            "context": {
+                "url": "/accounts/{accountId}/overdraft-limits",
+                "parameters": {},
+                "method": "GET",
+                "response": true,
+                "request": false,
+                "required": false
+            },
+            "oldValue": [
+                "requestDateTime",
+                "totalPages",
+                "totalRecords"
+            ],
+            "newValue": [
+                "requestDateTime"
+            ],
+            "increased": [],
+            "missing": [
+                "totalPages",
+                "totalRecords"
+            ],
+            "shared": [
+                "requestDateTime"
+            ],
+            "compatible": false,
+            "incompatible": true,
+            "unchanged": false,
+            "different": true
+        },
+        {
+            "context": {
+                "url": "/accounts/{accountId}/overdraft-limits",
+                "parameters": {},
+                "method": "GET",
+                "response": true,
+                "request": false,
+                "required": false
+            },
+            "compatible": true,
+            "incompatible": false,
+            "unchanged": true,
+            "different": false
+        },
+        null
+    ],
+    "compatible": false,
+    "incompatible": true,
+    "unchanged": false,
+    "different": true
+}
+},
+"increasedProperties": {},
+"missingProperties": {},
+"changeDeprecated": false,
+"changeTitle": false,
+"required": {
+"context": {
+    "url": "/accounts/{accountId}/overdraft-limits",
+    "parameters": {},
+    "method": "GET",
+    "response": true,
+    "request": false,
+    "required": true
+},
+"oldValue": [
+    "errors"
+],
+"newValue": [
+    "errors"
+],
+"increased": [],
+"missing": [],
+"shared": [
+    "errors"
+],
+"compatible": true,
+"incompatible": false,
+"unchanged": true,
+"different": false
+},
+"changeDefault": false,
+"enumeration": {
+"context": {
+    "url": "/accounts/{accountId}/overdraft-limits",
+    "parameters": {},
+    "method": "GET",
+    "response": true,
+    "request": false,
+    "required": true
+},
+"oldValue": [],
+"newValue": [],
+"increased": [],
+"missing": [],
+"shared": [],
+"compatible": true,
+"incompatible": false,
+"unchanged": true,
+"different": false
+},
+"changeFormat": false,
+"readOnly": {
+"compatible": true,
+"incompatible": false,
+"unchanged": true,
+"different": false
+},
+"writeOnly": {
+"compatible": true,
+"incompatible": false,
+"unchanged": true,
+"different": false
+},
+"changedType": false,
+"maxLength": {
+"context": {
+    "url": "/accounts/{accountId}/overdraft-limits",
+    "parameters": {},
+    "method": "GET",
+    "response": true,
+    "request": false,
+    "required": true
+},
+"compatible": true,
+"incompatible": false,
+"unchanged": true,
+"different": false
+},
+"discriminatorPropertyChanged": false,
+"changedElements": [
+{
+    "context": {
+        "url": "/accounts/{accountId}/overdraft-limits",
+        "parameters": {},
+        "method": "GET",
+        "response": true,
+        "request": false,
+        "required": false
+    },
+    "oldSchema": {
+        "required": [
+            "requestDateTime",
+            "totalPages",
+            "totalRecords"
+        ],
+        "type": "object",
+        "properties": {
+            "totalRecords": {
+                "type": "integer",
+                "description": "Número total de registros no resultado",
+                "format": "int32",
+                "example": 1,
+                "exampleSetFlag": true
+            },
+            "totalPages": {
+                "type": "integer",
+                "description": "Número total de páginas no resultado",
+                "format": "int32",
+                "example": 1,
+                "exampleSetFlag": true
+            },
+            "requestDateTime": {
+                "maxLength": 20,
+                "type": "string",
+                "description": "Data e hora da consulta, conforme especificação RFC-3339, formato UTC.",
+                "exampleSetFlag": false
+            }
+        },
+        "additionalProperties": false,
+        "description": "Meta informações referente à API requisitada.",
+        "exampleSetFlag": false
+    },
+    "newSchema": {
+        "required": [
+            "requestDateTime"
+        ],
+        "type": "object",
+        "properties": {
+            "requestDateTime": {
+                "maxLength": 20,
+                "type": "string",
+                "description": "Data e hora da consulta, conforme especificação RFC-3339, formato UTC.",
+                "exampleSetFlag": false
+            }
+        },
+        "description": "Meta informações referente à API requisitada.",
+        "exampleSetFlag": false
+    },
+    "changedProperties": {},
+    "increasedProperties": {},
+    "missingProperties": {
+        "totalRecords": {
+            "type": "integer",
+            "description": "Número total de registros no resultado",
+            "format": "int32",
+            "example": 1,
+            "exampleSetFlag": true
+        },
+        "totalPages": {
+            "type": "integer",
+            "description": "Número total de páginas no resultado",
+            "format": "int32",
+            "example": 1,
+            "exampleSetFlag": true
+        }
+    },
+    "changeDeprecated": false,
+    "changeTitle": false,
+    "required": {
+        "context": {
+            "url": "/accounts/{accountId}/overdraft-limits",
+            "parameters": {},
+            "method": "GET",
+            "response": true,
+            "request": false,
+            "required": false
+        },
+        "oldValue": [
+            "requestDateTime",
+            "totalPages",
+            "totalRecords"
+        ],
+        "newValue": [
+            "requestDateTime"
+        ],
+        "increased": [],
+        "missing": [
+            "totalPages",
+            "totalRecords"
+        ],
+        "shared": [
+            "requestDateTime"
+        ],
+        "compatible": false,
+        "incompatible": true,
+        "unchanged": false,
+        "different": true
+    },
+    "changeDefault": false,
+    "enumeration": {
+        "context": {
+            "url": "/accounts/{accountId}/overdraft-limits",
+            "parameters": {},
+            "method": "GET",
+            "response": true,
+            "request": false,
+            "required": false
+        },
+        "oldValue": [],
+        "newValue": [],
+        "increased": [],
+        "missing": [],
+        "shared": [],
+        "compatible": true,
+        "incompatible": false,
+        "unchanged": true,
+        "different": false
+    },
+    "changeFormat": false,
+    "readOnly": {
+        "compatible": true,
+        "incompatible": false,
+        "unchanged": true,
+        "different": false
+    },
+    "writeOnly": {
+        "compatible": true,
+        "incompatible": false,
+        "unchanged": true,
+        "different": false
+    },
+    "changedType": false,
+    "maxLength": {
+        "context": {
+            "url": "/accounts/{accountId}/overdraft-limits",
+            "parameters": {},
+            "method": "GET",
+            "response": true,
+            "request": false,
+            "required": false
+        },
+        "compatible": true,
+        "incompatible": false,
+        "unchanged": true,
+        "different": false
+    },
+    "discriminatorPropertyChanged": false,
+    "changedElements": [
+        null,
+        {
+            "compatible": true,
+            "incompatible": false,
+            "unchanged": true,
+            "different": false
+        },
+        {
+            "compatible": true,
+            "incompatible": false,
+            "unchanged": true,
+            "different": false
+        },
+        null,
+        null,
+        null,
+        {
+            "context": {
+                "url": "/accounts/{accountId}/overdraft-limits",
+                "parameters": {},
+                "method": "GET",
+                "response": true,
+                "request": false,
+                "required": false
+            },
+            "oldValue": [],
+            "newValue": [],
+            "increased": [],
+            "missing": [],
+            "shared": [],
+            "compatible": true,
+            "incompatible": false,
+            "unchanged": true,
+            "different": false
+        },
+        {
+            "context": {
+                "url": "/accounts/{accountId}/overdraft-limits",
+                "parameters": {},
+                "method": "GET",
+                "response": true,
+                "request": false,
+                "required": false
+            },
+            "oldValue": [
+                "requestDateTime",
+                "totalPages",
+                "totalRecords"
+            ],
+            "newValue": [
+                "requestDateTime"
+            ],
+            "increased": [],
+            "missing": [
+                "totalPages",
+                "totalRecords"
+            ],
+            "shared": [
+                "requestDateTime"
+            ],
+            "compatible": false,
+            "incompatible": true,
+            "unchanged": false,
+            "different": true
+        },
+        {
+            "context": {
+                "url": "/accounts/{accountId}/overdraft-limits",
+                "parameters": {},
+                "method": "GET",
+                "response": true,
+                "request": false,
+                "required": false
+            },
+            "compatible": true,
+            "incompatible": false,
+            "unchanged": true,
+            "different": false
+        },
+        null
+    ],
+    "compatible": false,
+    "incompatible": true,
+    "unchanged": false,
+    "different": true
+},
+null,
+{
+    "compatible": true,
+    "incompatible": false,
+    "unchanged": true,
+    "different": false
+},
+{
+    "compatible": true,
+    "incompatible": false,
+    "unchanged": true,
+    "different": false
+},
+null,
+null,
+null,
+{
+    "context": {
+        "url": "/accounts/{accountId}/overdraft-limits",
+        "parameters": {},
+        "method": "GET",
+        "response": true,
+        "request": false,
+        "required": true
+    },
+    "oldValue": [],
+    "newValue": [],
+    "increased": [],
+    "missing": [],
+    "shared": [],
+    "compatible": true,
+    "incompatible": false,
+    "unchanged": true,
+    "different": false
+},
+{
+    "context": {
+        "url": "/accounts/{accountId}/overdraft-limits",
+        "parameters": {},
+        "method": "GET",
+        "response": true,
+        "request": false,
+        "required": true
+    },
+    "oldValue": [
+        "errors"
+    ],
+    "newValue": [
+        "errors"
+    ],
+    "increased": [],
+    "missing": [],
+    "shared": [
+        "errors"
+    ],
+    "compatible": true,
+    "incompatible": false,
+    "unchanged": true,
+    "different": false
+},
+{
+    "context": {
+        "url": "/accounts/{accountId}/overdraft-limits",
+        "parameters": {},
+        "method": "GET",
+        "response": true,
+        "request": false,
+        "required": true
+    },
+    "compatible": true,
+    "incompatible": false,
+    "unchanged": true,
+    "different": false
+},
+null
+],
+"compatible": false,
+"incompatible": true,
+"unchanged": false,
+"different": true
+}
+],
+"compatible": false,
+"incompatible": true,
+"unchanged": false,
+"different": true
+}
+],
+"compatible": false,
+"incompatible": true,
+"unchanged": false,
+"different": true
+},
+"changedElements": [
+null,
+null,
+{
+"oldContent": {
+"application/json; charset=utf-8": {
+"schema": {
+"required": [
+"errors"
+],
+"type": "object",
+"properties": {
+"errors": {
+    "maxItems": 13,
+    "minItems": 1,
+    "type": "array",
+    "exampleSetFlag": false,
+    "items": {
+        "required": [
+            "code",
+            "detail",
+            "title"
+        ],
+        "type": "object",
+        "properties": {
+            "code": {
+                "maxLength": 255,
+                "pattern": "[\\w\\W\\s]*",
+                "type": "string",
+                "description": "Código de erro específico do endpoint",
+                "exampleSetFlag": false
+            },
+            "title": {
+                "maxLength": 255,
+                "pattern": "[\\w\\W\\s]*",
+                "type": "string",
+                "description": "Título legível por humanos deste erro específico",
+                "exampleSetFlag": false
+            },
+            "detail": {
+                "maxLength": 2048,
+                "pattern": "[\\w\\W\\s]*",
+                "type": "string",
+                "description": "Descrição legível por humanos deste erro específico",
+                "exampleSetFlag": false
+            }
+        },
+        "additionalProperties": false,
+        "exampleSetFlag": false
+    }
+},
+"meta": {
+    "required": [
+        "requestDateTime",
+        "totalPages",
+        "totalRecords"
+    ],
+    "type": "object",
+    "properties": {
+        "totalRecords": {
+            "type": "integer",
+            "description": "Número total de registros no resultado",
+            "format": "int32",
+            "example": 1,
+            "exampleSetFlag": true
+        },
+        "totalPages": {
+            "type": "integer",
+            "description": "Número total de páginas no resultado",
+            "format": "int32",
+            "example": 1,
+            "exampleSetFlag": true
+        },
+        "requestDateTime": {
+            "maxLength": 20,
+            "type": "string",
+            "description": "Data e hora da consulta, conforme especificação RFC-3339, formato UTC.",
+            "exampleSetFlag": false
+        }
+    },
+    "additionalProperties": false,
+    "description": "Meta informações referente à API requisitada.",
+    "exampleSetFlag": false
+}
+},
+"additionalProperties": false,
+"exampleSetFlag": false
+},
+"exampleSetFlag": false
+}
+},
+"newContent": {
+"application/json; charset=utf-8": {
+"schema": {
+"required": [
+"errors"
+],
+"type": "object",
+"properties": {
+"errors": {
+    "maxItems": 13,
+    "minItems": 1,
+    "type": "array",
+    "exampleSetFlag": false,
+    "items": {
+        "required": [
+            "code",
+            "detail",
+            "title"
+        ],
+        "type": "object",
+        "properties": {
+            "code": {
+                "maxLength": 255,
+                "pattern": "[\\w\\W\\s]*",
+                "type": "string",
+                "description": "Código de erro específico do endpoint",
+                "exampleSetFlag": false
+            },
+            "title": {
+                "maxLength": 255,
+                "pattern": "[\\w\\W\\s]*",
+                "type": "string",
+                "description": "Título legível por humanos deste erro específico",
+                "exampleSetFlag": false
+            },
+            "detail": {
+                "maxLength": 2048,
+                "pattern": "[\\w\\W\\s]*",
+                "type": "string",
+                "description": "Descrição legível por humanos deste erro específico",
+                "exampleSetFlag": false
+            }
+        },
+        "exampleSetFlag": false
+    }
+},
+"meta": {
+    "required": [
+        "requestDateTime"
+    ],
+    "type": "object",
+    "properties": {
+        "requestDateTime": {
+            "maxLength": 20,
+            "type": "string",
+            "description": "Data e hora da consulta, conforme especificação RFC-3339, formato UTC.",
+            "exampleSetFlag": false
+        }
+    },
+    "description": "Meta informações referente à API requisitada.",
+    "exampleSetFlag": false
+}
+},
+"exampleSetFlag": false
+},
+"exampleSetFlag": false
+}
+},
+"context": {
+"url": "/accounts/{accountId}/overdraft-limits",
+"parameters": {},
+"method": "GET",
+"response": true,
+"request": false
+},
+"increased": {},
+"missing": {},
+"changed": {
+"application/json; charset=utf-8": {
+"oldSchema": {
+"required": [
+"errors"
+],
+"type": "object",
+"properties": {
+"errors": {
+    "maxItems": 13,
+    "minItems": 1,
+    "type": "array",
+    "exampleSetFlag": false,
+    "items": {
+        "required": [
+            "code",
+            "detail",
+            "title"
+        ],
+        "type": "object",
+        "properties": {
+            "code": {
+                "maxLength": 255,
+                "pattern": "[\\w\\W\\s]*",
+                "type": "string",
+                "description": "Código de erro específico do endpoint",
+                "exampleSetFlag": false
+            },
+            "title": {
+                "maxLength": 255,
+                "pattern": "[\\w\\W\\s]*",
+                "type": "string",
+                "description": "Título legível por humanos deste erro específico",
+                "exampleSetFlag": false
+            },
+            "detail": {
+                "maxLength": 2048,
+                "pattern": "[\\w\\W\\s]*",
+                "type": "string",
+                "description": "Descrição legível por humanos deste erro específico",
+                "exampleSetFlag": false
+            }
+        },
+        "additionalProperties": false,
+        "exampleSetFlag": false
+    }
+},
+"meta": {
+    "required": [
+        "requestDateTime",
+        "totalPages",
+        "totalRecords"
+    ],
+    "type": "object",
+    "properties": {
+        "totalRecords": {
+            "type": "integer",
+            "description": "Número total de registros no resultado",
+            "format": "int32",
+            "example": 1,
+            "exampleSetFlag": true
+        },
+        "totalPages": {
+            "type": "integer",
+            "description": "Número total de páginas no resultado",
+            "format": "int32",
+            "example": 1,
+            "exampleSetFlag": true
+        },
+        "requestDateTime": {
+            "maxLength": 20,
+            "type": "string",
+            "description": "Data e hora da consulta, conforme especificação RFC-3339, formato UTC.",
+            "exampleSetFlag": false
+        }
+    },
+    "additionalProperties": false,
+    "description": "Meta informações referente à API requisitada.",
+    "exampleSetFlag": false
+}
+},
+"additionalProperties": false,
+"exampleSetFlag": false
+},
+"newSchema": {
+"required": [
+"errors"
+],
+"type": "object",
+"properties": {
+"errors": {
+    "maxItems": 13,
+    "minItems": 1,
+    "type": "array",
+    "exampleSetFlag": false,
+    "items": {
+        "required": [
+            "code",
+            "detail",
+            "title"
+        ],
+        "type": "object",
+        "properties": {
+            "code": {
+                "maxLength": 255,
+                "pattern": "[\\w\\W\\s]*",
+                "type": "string",
+                "description": "Código de erro específico do endpoint",
+                "exampleSetFlag": false
+            },
+            "title": {
+                "maxLength": 255,
+                "pattern": "[\\w\\W\\s]*",
+                "type": "string",
+                "description": "Título legível por humanos deste erro específico",
+                "exampleSetFlag": false
+            },
+            "detail": {
+                "maxLength": 2048,
+                "pattern": "[\\w\\W\\s]*",
+                "type": "string",
+                "description": "Descrição legível por humanos deste erro específico",
+                "exampleSetFlag": false
+            }
+        },
+        "exampleSetFlag": false
+    }
+},
+"meta": {
+    "required": [
+        "requestDateTime"
+    ],
+    "type": "object",
+    "properties": {
+        "requestDateTime": {
+            "maxLength": 20,
+            "type": "string",
+            "description": "Data e hora da consulta, conforme especificação RFC-3339, formato UTC.",
+            "exampleSetFlag": false
+        }
+    },
+    "description": "Meta informações referente à API requisitada.",
+    "exampleSetFlag": false
+}
+},
+"exampleSetFlag": false
+},
+"context": {
+"url": "/accounts/{accountId}/overdraft-limits",
+"parameters": {},
+"method": "GET",
+"response": true,
+"request": false
+},
+"schema": {
+"context": {
+"url": "/accounts/{accountId}/overdraft-limits",
+"parameters": {},
+"method": "GET",
+"response": true,
+"request": false,
+"required": true
+},
+"oldSchema": {
+"required": [
+    "errors"
+],
+"type": "object",
+"properties": {
+    "errors": {
+        "maxItems": 13,
+        "minItems": 1,
+        "type": "array",
+        "exampleSetFlag": false,
+        "items": {
+            "required": [
+                "code",
+                "detail",
+                "title"
+            ],
+            "type": "object",
+            "properties": {
+                "code": {
+                    "maxLength": 255,
+                    "pattern": "[\\w\\W\\s]*",
+                    "type": "string",
+                    "description": "Código de erro específico do endpoint",
+                    "exampleSetFlag": false
+                },
+                "title": {
+                    "maxLength": 255,
+                    "pattern": "[\\w\\W\\s]*",
+                    "type": "string",
+                    "description": "Título legível por humanos deste erro específico",
+                    "exampleSetFlag": false
+                },
+                "detail": {
+                    "maxLength": 2048,
+                    "pattern": "[\\w\\W\\s]*",
+                    "type": "string",
+                    "description": "Descrição legível por humanos deste erro específico",
+                    "exampleSetFlag": false
+                }
+            },
+            "additionalProperties": false,
+            "exampleSetFlag": false
+        }
+    },
+    "meta": {
+        "required": [
+            "requestDateTime",
+            "totalPages",
+            "totalRecords"
+        ],
+        "type": "object",
+        "properties": {
+            "totalRecords": {
+                "type": "integer",
+                "description": "Número total de registros no resultado",
+                "format": "int32",
+                "example": 1,
+                "exampleSetFlag": true
+            },
+            "totalPages": {
+                "type": "integer",
+                "description": "Número total de páginas no resultado",
+                "format": "int32",
+                "example": 1,
+                "exampleSetFlag": true
+            },
+            "requestDateTime": {
+                "maxLength": 20,
+                "type": "string",
+                "description": "Data e hora da consulta, conforme especificação RFC-3339, formato UTC.",
+                "exampleSetFlag": false
+            }
+        },
+        "additionalProperties": false,
+        "description": "Meta informações referente à API requisitada.",
+        "exampleSetFlag": false
+    }
+},
+"additionalProperties": false,
+"exampleSetFlag": false
+},
+"newSchema": {
+"required": [
+    "errors"
+],
+"type": "object",
+"properties": {
+    "errors": {
+        "maxItems": 13,
+        "minItems": 1,
+        "type": "array",
+        "exampleSetFlag": false,
+        "items": {
+            "required": [
+                "code",
+                "detail",
+                "title"
+            ],
+            "type": "object",
+            "properties": {
+                "code": {
+                    "maxLength": 255,
+                    "pattern": "[\\w\\W\\s]*",
+                    "type": "string",
+                    "description": "Código de erro específico do endpoint",
+                    "exampleSetFlag": false
+                },
+                "title": {
+                    "maxLength": 255,
+                    "pattern": "[\\w\\W\\s]*",
+                    "type": "string",
+                    "description": "Título legível por humanos deste erro específico",
+                    "exampleSetFlag": false
+                },
+                "detail": {
+                    "maxLength": 2048,
+                    "pattern": "[\\w\\W\\s]*",
+                    "type": "string",
+                    "description": "Descrição legível por humanos deste erro específico",
+                    "exampleSetFlag": false
+                }
+            },
+            "exampleSetFlag": false
+        }
+    },
+    "meta": {
+        "required": [
+            "requestDateTime"
+        ],
+        "type": "object",
+        "properties": {
+            "requestDateTime": {
+                "maxLength": 20,
+                "type": "string",
+                "description": "Data e hora da consulta, conforme especificação RFC-3339, formato UTC.",
+                "exampleSetFlag": false
+            }
+        },
+        "description": "Meta informações referente à API requisitada.",
+        "exampleSetFlag": false
+    }
+},
+"exampleSetFlag": false
+},
+"changedProperties": {
+"meta": {
+    "context": {
+        "url": "/accounts/{accountId}/overdraft-limits",
+        "parameters": {},
+        "method": "GET",
+        "response": true,
+        "request": false,
+        "required": false
+    },
+    "oldSchema": {
+        "required": [
+            "requestDateTime",
+            "totalPages",
+            "totalRecords"
+        ],
+        "type": "object",
+        "properties": {
+            "totalRecords": {
+                "type": "integer",
+                "description": "Número total de registros no resultado",
+                "format": "int32",
+                "example": 1,
+                "exampleSetFlag": true
+            },
+            "totalPages": {
+                "type": "integer",
+                "description": "Número total de páginas no resultado",
+                "format": "int32",
+                "example": 1,
+                "exampleSetFlag": true
+            },
+            "requestDateTime": {
+                "maxLength": 20,
+                "type": "string",
+                "description": "Data e hora da consulta, conforme especificação RFC-3339, formato UTC.",
+                "exampleSetFlag": false
+            }
+        },
+        "additionalProperties": false,
+        "description": "Meta informações referente à API requisitada.",
+        "exampleSetFlag": false
+    },
+    "newSchema": {
+        "required": [
+            "requestDateTime"
+        ],
+        "type": "object",
+        "properties": {
+            "requestDateTime": {
+                "maxLength": 20,
+                "type": "string",
+                "description": "Data e hora da consulta, conforme especificação RFC-3339, formato UTC.",
+                "exampleSetFlag": false
+            }
+        },
+        "description": "Meta informações referente à API requisitada.",
+        "exampleSetFlag": false
+    },
+    "changedProperties": {},
+    "increasedProperties": {},
+    "missingProperties": {
+        "totalRecords": {
+            "type": "integer",
+            "description": "Número total de registros no resultado",
+            "format": "int32",
+            "example": 1,
+            "exampleSetFlag": true
+        },
+        "totalPages": {
+            "type": "integer",
+            "description": "Número total de páginas no resultado",
+            "format": "int32",
+            "example": 1,
+            "exampleSetFlag": true
+        }
+    },
+    "changeDeprecated": false,
+    "changeTitle": false,
+    "required": {
+        "context": {
+            "url": "/accounts/{accountId}/overdraft-limits",
+            "parameters": {},
+            "method": "GET",
+            "response": true,
+            "request": false,
+            "required": false
+        },
+        "oldValue": [
+            "requestDateTime",
+            "totalPages",
+            "totalRecords"
+        ],
+        "newValue": [
+            "requestDateTime"
+        ],
+        "increased": [],
+        "missing": [
+            "totalPages",
+            "totalRecords"
+        ],
+        "shared": [
+            "requestDateTime"
+        ],
+        "compatible": false,
+        "incompatible": true,
+        "unchanged": false,
+        "different": true
+    },
+    "changeDefault": false,
+    "enumeration": {
+        "context": {
+            "url": "/accounts/{accountId}/overdraft-limits",
+            "parameters": {},
+            "method": "GET",
+            "response": true,
+            "request": false,
+            "required": false
+        },
+        "oldValue": [],
+        "newValue": [],
+        "increased": [],
+        "missing": [],
+        "shared": [],
+        "compatible": true,
+        "incompatible": false,
+        "unchanged": true,
+        "different": false
+    },
+    "changeFormat": false,
+    "readOnly": {
+        "compatible": true,
+        "incompatible": false,
+        "unchanged": true,
+        "different": false
+    },
+    "writeOnly": {
+        "compatible": true,
+        "incompatible": false,
+        "unchanged": true,
+        "different": false
+    },
+    "changedType": false,
+    "maxLength": {
+        "context": {
+            "url": "/accounts/{accountId}/overdraft-limits",
+            "parameters": {},
+            "method": "GET",
+            "response": true,
+            "request": false,
+            "required": false
+        },
+        "compatible": true,
+        "incompatible": false,
+        "unchanged": true,
+        "different": false
+    },
+    "discriminatorPropertyChanged": false,
+    "changedElements": [
+        null,
+        {
+            "compatible": true,
+            "incompatible": false,
+            "unchanged": true,
+            "different": false
+        },
+        {
+            "compatible": true,
+            "incompatible": false,
+            "unchanged": true,
+            "different": false
+        },
+        null,
+        null,
+        null,
+        {
+            "context": {
+                "url": "/accounts/{accountId}/overdraft-limits",
+                "parameters": {},
+                "method": "GET",
+                "response": true,
+                "request": false,
+                "required": false
+            },
+            "oldValue": [],
+            "newValue": [],
+            "increased": [],
+            "missing": [],
+            "shared": [],
+            "compatible": true,
+            "incompatible": false,
+            "unchanged": true,
+            "different": false
+        },
+        {
+            "context": {
+                "url": "/accounts/{accountId}/overdraft-limits",
+                "parameters": {},
+                "method": "GET",
+                "response": true,
+                "request": false,
+                "required": false
+            },
+            "oldValue": [
+                "requestDateTime",
+                "totalPages",
+                "totalRecords"
+            ],
+            "newValue": [
+                "requestDateTime"
+            ],
+            "increased": [],
+            "missing": [
+                "totalPages",
+                "totalRecords"
+            ],
+            "shared": [
+                "requestDateTime"
+            ],
+            "compatible": false,
+            "incompatible": true,
+            "unchanged": false,
+            "different": true
+        },
+        {
+            "context": {
+                "url": "/accounts/{accountId}/overdraft-limits",
+                "parameters": {},
+                "method": "GET",
+                "response": true,
+                "request": false,
+                "required": false
+            },
+            "compatible": true,
+            "incompatible": false,
+            "unchanged": true,
+            "different": false
+        },
+        null
+    ],
+    "compatible": false,
+    "incompatible": true,
+    "unchanged": false,
+    "different": true
+}
+},
+"increasedProperties": {},
+"missingProperties": {},
+"changeDeprecated": false,
+"changeTitle": false,
+"required": {
+"context": {
+    "url": "/accounts/{accountId}/overdraft-limits",
+    "parameters": {},
+    "method": "GET",
+    "response": true,
+    "request": false,
+    "required": true
+},
+"oldValue": [
+    "errors"
+],
+"newValue": [
+    "errors"
+],
+"increased": [],
+"missing": [],
+"shared": [
+    "errors"
+],
+"compatible": true,
+"incompatible": false,
+"unchanged": true,
+"different": false
+},
+"changeDefault": false,
+"enumeration": {
+"context": {
+    "url": "/accounts/{accountId}/overdraft-limits",
+    "parameters": {},
+    "method": "GET",
+    "response": true,
+    "request": false,
+    "required": true
+},
+"oldValue": [],
+"newValue": [],
+"increased": [],
+"missing": [],
+"shared": [],
+"compatible": true,
+"incompatible": false,
+"unchanged": true,
+"different": false
+},
+"changeFormat": false,
+"readOnly": {
+"compatible": true,
+"incompatible": false,
+"unchanged": true,
+"different": false
+},
+"writeOnly": {
+"compatible": true,
+"incompatible": false,
+"unchanged": true,
+"different": false
+},
+"changedType": false,
+"maxLength": {
+"context": {
+    "url": "/accounts/{accountId}/overdraft-limits",
+    "parameters": {},
+    "method": "GET",
+    "response": true,
+    "request": false,
+    "required": true
+},
+"compatible": true,
+"incompatible": false,
+"unchanged": true,
+"different": false
+},
+"discriminatorPropertyChanged": false,
+"changedElements": [
+{
+    "context": {
+        "url": "/accounts/{accountId}/overdraft-limits",
+        "parameters": {},
+        "method": "GET",
+        "response": true,
+        "request": false,
+        "required": false
+    },
+    "oldSchema": {
+        "required": [
+            "requestDateTime",
+            "totalPages",
+            "totalRecords"
+        ],
+        "type": "object",
+        "properties": {
+            "totalRecords": {
+                "type": "integer",
+                "description": "Número total de registros no resultado",
+                "format": "int32",
+                "example": 1,
+                "exampleSetFlag": true
+            },
+            "totalPages": {
+                "type": "integer",
+                "description": "Número total de páginas no resultado",
+                "format": "int32",
+                "example": 1,
+                "exampleSetFlag": true
+            },
+            "requestDateTime": {
+                "maxLength": 20,
+                "type": "string",
+                "description": "Data e hora da consulta, conforme especificação RFC-3339, formato UTC.",
+                "exampleSetFlag": false
+            }
+        },
+        "additionalProperties": false,
+        "description": "Meta informações referente à API requisitada.",
+        "exampleSetFlag": false
+    },
+    "newSchema": {
+        "required": [
+            "requestDateTime"
+        ],
+        "type": "object",
+        "properties": {
+            "requestDateTime": {
+                "maxLength": 20,
+                "type": "string",
+                "description": "Data e hora da consulta, conforme especificação RFC-3339, formato UTC.",
+                "exampleSetFlag": false
+            }
+        },
+        "description": "Meta informações referente à API requisitada.",
+        "exampleSetFlag": false
+    },
+    "changedProperties": {},
+    "increasedProperties": {},
+    "missingProperties": {
+        "totalRecords": {
+            "type": "integer",
+            "description": "Número total de registros no resultado",
+            "format": "int32",
+            "example": 1,
+            "exampleSetFlag": true
+        },
+        "totalPages": {
+            "type": "integer",
+            "description": "Número total de páginas no resultado",
+            "format": "int32",
+            "example": 1,
+            "exampleSetFlag": true
+        }
+    },
+    "changeDeprecated": false,
+    "changeTitle": false,
+    "required": {
+        "context": {
+            "url": "/accounts/{accountId}/overdraft-limits",
+            "parameters": {},
+            "method": "GET",
+            "response": true,
+            "request": false,
+            "required": false
+        },
+        "oldValue": [
+            "requestDateTime",
+            "totalPages",
+            "totalRecords"
+        ],
+        "newValue": [
+            "requestDateTime"
+        ],
+        "increased": [],
+        "missing": [
+            "totalPages",
+            "totalRecords"
+        ],
+        "shared": [
+            "requestDateTime"
+        ],
+        "compatible": false,
+        "incompatible": true,
+        "unchanged": false,
+        "different": true
+    },
+    "changeDefault": false,
+    "enumeration": {
+        "context": {
+            "url": "/accounts/{accountId}/overdraft-limits",
+            "parameters": {},
+            "method": "GET",
+            "response": true,
+            "request": false,
+            "required": false
+        },
+        "oldValue": [],
+        "newValue": [],
+        "increased": [],
+        "missing": [],
+        "shared": [],
+        "compatible": true,
+        "incompatible": false,
+        "unchanged": true,
+        "different": false
+    },
+    "changeFormat": false,
+    "readOnly": {
+        "compatible": true,
+        "incompatible": false,
+        "unchanged": true,
+        "different": false
+    },
+    "writeOnly": {
+        "compatible": true,
+        "incompatible": false,
+        "unchanged": true,
+        "different": false
+    },
+    "changedType": false,
+    "maxLength": {
+        "context": {
+            "url": "/accounts/{accountId}/overdraft-limits",
+            "parameters": {},
+            "method": "GET",
+            "response": true,
+            "request": false,
+            "required": false
+        },
+        "compatible": true,
+        "incompatible": false,
+        "unchanged": true,
+        "different": false
+    },
+    "discriminatorPropertyChanged": false,
+    "changedElements": [
+        null,
+        {
+            "compatible": true,
+            "incompatible": false,
+            "unchanged": true,
+            "different": false
+        },
+        {
+            "compatible": true,
+            "incompatible": false,
+            "unchanged": true,
+            "different": false
+        },
+        null,
+        null,
+        null,
+        {
+            "context": {
+                "url": "/accounts/{accountId}/overdraft-limits",
+                "parameters": {},
+                "method": "GET",
+                "response": true,
+                "request": false,
+                "required": false
+            },
+            "oldValue": [],
+            "newValue": [],
+            "increased": [],
+            "missing": [],
+            "shared": [],
+            "compatible": true,
+            "incompatible": false,
+            "unchanged": true,
+            "different": false
+        },
+        {
+            "context": {
+                "url": "/accounts/{accountId}/overdraft-limits",
+                "parameters": {},
+                "method": "GET",
+                "response": true,
+                "request": false,
+                "required": false
+            },
+            "oldValue": [
+                "requestDateTime",
+                "totalPages",
+                "totalRecords"
+            ],
+            "newValue": [
+                "requestDateTime"
+            ],
+            "increased": [],
+            "missing": [
+                "totalPages",
+                "totalRecords"
+            ],
+            "shared": [
+                "requestDateTime"
+            ],
+            "compatible": false,
+            "incompatible": true,
+            "unchanged": false,
+            "different": true
+        },
+        {
+            "context": {
+                "url": "/accounts/{accountId}/overdraft-limits",
+                "parameters": {},
+                "method": "GET",
+                "response": true,
+                "request": false,
+                "required": false
+            },
+            "compatible": true,
+            "incompatible": false,
+            "unchanged": true,
+            "different": false
+        },
+        null
+    ],
+    "compatible": false,
+    "incompatible": true,
+    "unchanged": false,
+    "different": true
+},
+null,
+{
+    "compatible": true,
+    "incompatible": false,
+    "unchanged": true,
+    "different": false
+},
+{
+    "compatible": true,
+    "incompatible": false,
+    "unchanged": true,
+    "different": false
+},
+null,
+null,
+null,
+{
+    "context": {
+        "url": "/accounts/{accountId}/overdraft-limits",
+        "parameters": {},
+        "method": "GET",
+        "response": true,
+        "request": false,
+        "required": true
+    },
+    "oldValue": [],
+    "newValue": [],
+    "increased": [],
+    "missing": [],
+    "shared": [],
+    "compatible": true,
+    "incompatible": false,
+    "unchanged": true,
+    "different": false
+},
+{
+    "context": {
+        "url": "/accounts/{accountId}/overdraft-limits",
+        "parameters": {},
+        "method": "GET",
+        "response": true,
+        "request": false,
+        "required": true
+    },
+    "oldValue": [
+        "errors"
+    ],
+    "newValue": [
+        "errors"
+    ],
+    "increased": [],
+    "missing": [],
+    "shared": [
+        "errors"
+    ],
+    "compatible": true,
+    "incompatible": false,
+    "unchanged": true,
+    "different": false
+},
+{
+    "context": {
+        "url": "/accounts/{accountId}/overdraft-limits",
+        "parameters": {},
+        "method": "GET",
+        "response": true,
+        "request": false,
+        "required": true
+    },
+    "compatible": true,
+    "incompatible": false,
+    "unchanged": true,
+    "different": false
+},
+null
+],
+"compatible": false,
+"incompatible": true,
+"unchanged": false,
+"different": true
+},
+"changedElements": [
+{
+"context": {
+    "url": "/accounts/{accountId}/overdraft-limits",
+    "parameters": {},
+    "method": "GET",
+    "response": true,
+    "request": false,
+    "required": true
+},
+"oldSchema": {
+    "required": [
+        "errors"
+    ],
+    "type": "object",
+    "properties": {
+        "errors": {
+            "maxItems": 13,
+            "minItems": 1,
+            "type": "array",
+            "exampleSetFlag": false,
+            "items": {
+                "required": [
+                    "code",
+                    "detail",
+                    "title"
+                ],
+                "type": "object",
+                "properties": {
+                    "code": {
+                        "maxLength": 255,
+                        "pattern": "[\\w\\W\\s]*",
+                        "type": "string",
+                        "description": "Código de erro específico do endpoint",
+                        "exampleSetFlag": false
+                    },
+                    "title": {
+                        "maxLength": 255,
+                        "pattern": "[\\w\\W\\s]*",
+                        "type": "string",
+                        "description": "Título legível por humanos deste erro específico",
+                        "exampleSetFlag": false
+                    },
+                    "detail": {
+                        "maxLength": 2048,
+                        "pattern": "[\\w\\W\\s]*",
+                        "type": "string",
+                        "description": "Descrição legível por humanos deste erro específico",
+                        "exampleSetFlag": false
+                    }
+                },
+                "additionalProperties": false,
+                "exampleSetFlag": false
+            }
+        },
+        "meta": {
+            "required": [
+                "requestDateTime",
+                "totalPages",
+                "totalRecords"
+            ],
+            "type": "object",
+            "properties": {
+                "totalRecords": {
+                    "type": "integer",
+                    "description": "Número total de registros no resultado",
+                    "format": "int32",
+                    "example": 1,
+                    "exampleSetFlag": true
+                },
+                "totalPages": {
+                    "type": "integer",
+                    "description": "Número total de páginas no resultado",
+                    "format": "int32",
+                    "example": 1,
+                    "exampleSetFlag": true
+                },
+                "requestDateTime": {
+                    "maxLength": 20,
+                    "type": "string",
+                    "description": "Data e hora da consulta, conforme especificação RFC-3339, formato UTC.",
+                    "exampleSetFlag": false
+                }
+            },
+            "additionalProperties": false,
+            "description": "Meta informações referente à API requisitada.",
+            "exampleSetFlag": false
+        }
+    },
+    "additionalProperties": false,
+    "exampleSetFlag": false
+},
+"newSchema": {
+    "required": [
+        "errors"
+    ],
+    "type": "object",
+    "properties": {
+        "errors": {
+            "maxItems": 13,
+            "minItems": 1,
+            "type": "array",
+            "exampleSetFlag": false,
+            "items": {
+                "required": [
+                    "code",
+                    "detail",
+                    "title"
+                ],
+                "type": "object",
+                "properties": {
+                    "code": {
+                        "maxLength": 255,
+                        "pattern": "[\\w\\W\\s]*",
+                        "type": "string",
+                        "description": "Código de erro específico do endpoint",
+                        "exampleSetFlag": false
+                    },
+                    "title": {
+                        "maxLength": 255,
+                        "pattern": "[\\w\\W\\s]*",
+                        "type": "string",
+                        "description": "Título legível por humanos deste erro específico",
+                        "exampleSetFlag": false
+                    },
+                    "detail": {
+                        "maxLength": 2048,
+                        "pattern": "[\\w\\W\\s]*",
+                        "type": "string",
+                        "description": "Descrição legível por humanos deste erro específico",
+                        "exampleSetFlag": false
+                    }
+                },
+                "exampleSetFlag": false
+            }
+        },
+        "meta": {
+            "required": [
+                "requestDateTime"
+            ],
+            "type": "object",
+            "properties": {
+                "requestDateTime": {
+                    "maxLength": 20,
+                    "type": "string",
+                    "description": "Data e hora da consulta, conforme especificação RFC-3339, formato UTC.",
+                    "exampleSetFlag": false
+                }
+            },
+            "description": "Meta informações referente à API requisitada.",
+            "exampleSetFlag": false
+        }
+    },
+    "exampleSetFlag": false
+},
+"changedProperties": {
+    "meta": {
+        "context": {
+            "url": "/accounts/{accountId}/overdraft-limits",
+            "parameters": {},
+            "method": "GET",
+            "response": true,
+            "request": false,
+            "required": false
+        },
+        "oldSchema": {
+            "required": [
+                "requestDateTime",
+                "totalPages",
+                "totalRecords"
+            ],
+            "type": "object",
+            "properties": {
+                "totalRecords": {
+                    "type": "integer",
+                    "description": "Número total de registros no resultado",
+                    "format": "int32",
+                    "example": 1,
+                    "exampleSetFlag": true
+                },
+                "totalPages": {
+                    "type": "integer",
+                    "description": "Número total de páginas no resultado",
+                    "format": "int32",
+                    "example": 1,
+                    "exampleSetFlag": true
+                },
+                "requestDateTime": {
+                    "maxLength": 20,
+                    "type": "string",
+                    "description": "Data e hora da consulta, conforme especificação RFC-3339, formato UTC.",
+                    "exampleSetFlag": false
+                }
+            },
+            "additionalProperties": false,
+            "description": "Meta informações referente à API requisitada.",
+            "exampleSetFlag": false
+        },
+        "newSchema": {
+            "required": [
+                "requestDateTime"
+            ],
+            "type": "object",
+            "properties": {
+                "requestDateTime": {
+                    "maxLength": 20,
+                    "type": "string",
+                    "description": "Data e hora da consulta, conforme especificação RFC-3339, formato UTC.",
+                    "exampleSetFlag": false
+                }
+            },
+            "description": "Meta informações referente à API requisitada.",
+            "exampleSetFlag": false
+        },
+        "changedProperties": {},
+        "increasedProperties": {},
+        "missingProperties": {
+            "totalRecords": {
+                "type": "integer",
+                "description": "Número total de registros no resultado",
+                "format": "int32",
+                "example": 1,
+                "exampleSetFlag": true
+            },
+            "totalPages": {
+                "type": "integer",
+                "description": "Número total de páginas no resultado",
+                "format": "int32",
+                "example": 1,
+                "exampleSetFlag": true
+            }
+        },
+        "changeDeprecated": false,
+        "changeTitle": false,
+        "required": {
+            "context": {
+                "url": "/accounts/{accountId}/overdraft-limits",
+                "parameters": {},
+                "method": "GET",
+                "response": true,
+                "request": false,
+                "required": false
+            },
+            "oldValue": [
+                "requestDateTime",
+                "totalPages",
+                "totalRecords"
+            ],
+            "newValue": [
+                "requestDateTime"
+            ],
+            "increased": [],
+            "missing": [
+                "totalPages",
+                "totalRecords"
+            ],
+            "shared": [
+                "requestDateTime"
+            ],
+            "compatible": false,
+            "incompatible": true,
+            "unchanged": false,
+            "different": true
+        },
+        "changeDefault": false,
+        "enumeration": {
+            "context": {
+                "url": "/accounts/{accountId}/overdraft-limits",
+                "parameters": {},
+                "method": "GET",
+                "response": true,
+                "request": false,
+                "required": false
+            },
+            "oldValue": [],
+            "newValue": [],
+            "increased": [],
+            "missing": [],
+            "shared": [],
+            "compatible": true,
+            "incompatible": false,
+            "unchanged": true,
+            "different": false
+        },
+        "changeFormat": false,
+        "readOnly": {
+            "compatible": true,
+            "incompatible": false,
+            "unchanged": true,
+            "different": false
+        },
+        "writeOnly": {
+            "compatible": true,
+            "incompatible": false,
+            "unchanged": true,
+            "different": false
+        },
+        "changedType": false,
+        "maxLength": {
+            "context": {
+                "url": "/accounts/{accountId}/overdraft-limits",
+                "parameters": {},
+                "method": "GET",
+                "response": true,
+                "request": false,
+                "required": false
+            },
+            "compatible": true,
+            "incompatible": false,
+            "unchanged": true,
+            "different": false
+        },
+        "discriminatorPropertyChanged": false,
+        "changedElements": [
+            null,
+            {
+                "compatible": true,
+                "incompatible": false,
+                "unchanged": true,
+                "different": false
+            },
+            {
+                "compatible": true,
+                "incompatible": false,
+                "unchanged": true,
+                "different": false
+            },
+            null,
+            null,
+            null,
+            {
+                "context": {
+                    "url": "/accounts/{accountId}/overdraft-limits",
+                    "parameters": {},
+                    "method": "GET",
+                    "response": true,
+                    "request": false,
+                    "required": false
+                },
+                "oldValue": [],
+                "newValue": [],
+                "increased": [],
+                "missing": [],
+                "shared": [],
+                "compatible": true,
+                "incompatible": false,
+                "unchanged": true,
+                "different": false
+            },
+            {
+                "context": {
+                    "url": "/accounts/{accountId}/overdraft-limits",
+                    "parameters": {},
+                    "method": "GET",
+                    "response": true,
+                    "request": false,
+                    "required": false
+                },
+                "oldValue": [
+                    "requestDateTime",
+                    "totalPages",
+                    "totalRecords"
+                ],
+                "newValue": [
+                    "requestDateTime"
+                ],
+                "increased": [],
+                "missing": [
+                    "totalPages",
+                    "totalRecords"
+                ],
+                "shared": [
+                    "requestDateTime"
+                ],
+                "compatible": false,
+                "incompatible": true,
+                "unchanged": false,
+                "different": true
+            },
+            {
+                "context": {
+                    "url": "/accounts/{accountId}/overdraft-limits",
+                    "parameters": {},
+                    "method": "GET",
+                    "response": true,
+                    "request": false,
+                    "required": false
+                },
+                "compatible": true,
+                "incompatible": false,
+                "unchanged": true,
+                "different": false
+            },
+            null
+        ],
+        "compatible": false,
+        "incompatible": true,
+        "unchanged": false,
+        "different": true
+    }
+},
+"increasedProperties": {},
+"missingProperties": {},
+"changeDeprecated": false,
+"changeTitle": false,
+"required": {
+    "context": {
+        "url": "/accounts/{accountId}/overdraft-limits",
+        "parameters": {},
+        "method": "GET",
+        "response": true,
+        "request": false,
+        "required": true
+    },
+    "oldValue": [
+        "errors"
+    ],
+    "newValue": [
+        "errors"
+    ],
+    "increased": [],
+    "missing": [],
+    "shared": [
+        "errors"
+    ],
+    "compatible": true,
+    "incompatible": false,
+    "unchanged": true,
+    "different": false
+},
+"changeDefault": false,
+"enumeration": {
+    "context": {
+        "url": "/accounts/{accountId}/overdraft-limits",
+        "parameters": {},
+        "method": "GET",
+        "response": true,
+        "request": false,
+        "required": true
+    },
+    "oldValue": [],
+    "newValue": [],
+    "increased": [],
+    "missing": [],
+    "shared": [],
+    "compatible": true,
+    "incompatible": false,
+    "unchanged": true,
+    "different": false
+},
+"changeFormat": false,
+"readOnly": {
+    "compatible": true,
+    "incompatible": false,
+    "unchanged": true,
+    "different": false
+},
+"writeOnly": {
+    "compatible": true,
+    "incompatible": false,
+    "unchanged": true,
+    "different": false
+},
+"changedType": false,
+"maxLength": {
+    "context": {
+        "url": "/accounts/{accountId}/overdraft-limits",
+        "parameters": {},
+        "method": "GET",
+        "response": true,
+        "request": false,
+        "required": true
+    },
+    "compatible": true,
+    "incompatible": false,
+    "unchanged": true,
+    "different": false
+},
+"discriminatorPropertyChanged": false,
+"changedElements": [
+    {
+        "context": {
+            "url": "/accounts/{accountId}/overdraft-limits",
+            "parameters": {},
+            "method": "GET",
+            "response": true,
+            "request": false,
+            "required": false
+        },
+        "oldSchema": {
+            "required": [
+                "requestDateTime",
+                "totalPages",
+                "totalRecords"
+            ],
+            "type": "object",
+            "properties": {
+                "totalRecords": {
+                    "type": "integer",
+                    "description": "Número total de registros no resultado",
+                    "format": "int32",
+                    "example": 1,
+                    "exampleSetFlag": true
+                },
+                "totalPages": {
+                    "type": "integer",
+                    "description": "Número total de páginas no resultado",
+                    "format": "int32",
+                    "example": 1,
+                    "exampleSetFlag": true
+                },
+                "requestDateTime": {
+                    "maxLength": 20,
+                    "type": "string",
+                    "description": "Data e hora da consulta, conforme especificação RFC-3339, formato UTC.",
+                    "exampleSetFlag": false
+                }
+            },
+            "additionalProperties": false,
+            "description": "Meta informações referente à API requisitada.",
+            "exampleSetFlag": false
+        },
+        "newSchema": {
+            "required": [
+                "requestDateTime"
+            ],
+            "type": "object",
+            "properties": {
+                "requestDateTime": {
+                    "maxLength": 20,
+                    "type": "string",
+                    "description": "Data e hora da consulta, conforme especificação RFC-3339, formato UTC.",
+                    "exampleSetFlag": false
+                }
+            },
+            "description": "Meta informações referente à API requisitada.",
+            "exampleSetFlag": false
+        },
+        "changedProperties": {},
+        "increasedProperties": {},
+        "missingProperties": {
+            "totalRecords": {
+                "type": "integer",
+                "description": "Número total de registros no resultado",
+                "format": "int32",
+                "example": 1,
+                "exampleSetFlag": true
+            },
+            "totalPages": {
+                "type": "integer",
+                "description": "Número total de páginas no resultado",
+                "format": "int32",
+                "example": 1,
+                "exampleSetFlag": true
+            }
+        },
+        "changeDeprecated": false,
+        "changeTitle": false,
+        "required": {
+            "context": {
+                "url": "/accounts/{accountId}/overdraft-limits",
+                "parameters": {},
+                "method": "GET",
+                "response": true,
+                "request": false,
+                "required": false
+            },
+            "oldValue": [
+                "requestDateTime",
+                "totalPages",
+                "totalRecords"
+            ],
+            "newValue": [
+                "requestDateTime"
+            ],
+            "increased": [],
+            "missing": [
+                "totalPages",
+                "totalRecords"
+            ],
+            "shared": [
+                "requestDateTime"
+            ],
+            "compatible": false,
+            "incompatible": true,
+            "unchanged": false,
+            "different": true
+        },
+        "changeDefault": false,
+        "enumeration": {
+            "context": {
+                "url": "/accounts/{accountId}/overdraft-limits",
+                "parameters": {},
+                "method": "GET",
+                "response": true,
+                "request": false,
+                "required": false
+            },
+            "oldValue": [],
+            "newValue": [],
+            "increased": [],
+            "missing": [],
+            "shared": [],
+            "compatible": true,
+            "incompatible": false,
+            "unchanged": true,
+            "different": false
+        },
+        "changeFormat": false,
+        "readOnly": {
+            "compatible": true,
+            "incompatible": false,
+            "unchanged": true,
+            "different": false
+        },
+        "writeOnly": {
+            "compatible": true,
+            "incompatible": false,
+            "unchanged": true,
+            "different": false
+        },
+        "changedType": false,
+        "maxLength": {
+            "context": {
+                "url": "/accounts/{accountId}/overdraft-limits",
+                "parameters": {},
+                "method": "GET",
+                "response": true,
+                "request": false,
+                "required": false
+            },
+            "compatible": true,
+            "incompatible": false,
+            "unchanged": true,
+            "different": false
+        },
+        "discriminatorPropertyChanged": false,
+        "changedElements": [
+            null,
+            {
+                "compatible": true,
+                "incompatible": false,
+                "unchanged": true,
+                "different": false
+            },
+            {
+                "compatible": true,
+                "incompatible": false,
+                "unchanged": true,
+                "different": false
+            },
+            null,
+            null,
+            null,
+            {
+                "context": {
+                    "url": "/accounts/{accountId}/overdraft-limits",
+                    "parameters": {},
+                    "method": "GET",
+                    "response": true,
+                    "request": false,
+                    "required": false
+                },
+                "oldValue": [],
+                "newValue": [],
+                "increased": [],
+                "missing": [],
+                "shared": [],
+                "compatible": true,
+                "incompatible": false,
+                "unchanged": true,
+                "different": false
+            },
+            {
+                "context": {
+                    "url": "/accounts/{accountId}/overdraft-limits",
+                    "parameters": {},
+                    "method": "GET",
+                    "response": true,
+                    "request": false,
+                    "required": false
+                },
+                "oldValue": [
+                    "requestDateTime",
+                    "totalPages",
+                    "totalRecords"
+                ],
+                "newValue": [
+                    "requestDateTime"
+                ],
+                "increased": [],
+                "missing": [
+                    "totalPages",
+                    "totalRecords"
+                ],
+                "shared": [
+                    "requestDateTime"
+                ],
+                "compatible": false,
+                "incompatible": true,
+                "unchanged": false,
+                "different": true
+            },
+            {
+                "context": {
+                    "url": "/accounts/{accountId}/overdraft-limits",
+                    "parameters": {},
+                    "method": "GET",
+                    "response": true,
+                    "request": false,
+                    "required": false
+                },
+                "compatible": true,
+                "incompatible": false,
+                "unchanged": true,
+                "different": false
+            },
+            null
+        ],
+        "compatible": false,
+        "incompatible": true,
+        "unchanged": false,
+        "different": true
+    },
+    null,
+    {
+        "compatible": true,
+        "incompatible": false,
+        "unchanged": true,
+        "different": false
+    },
+    {
+        "compatible": true,
+        "incompatible": false,
+        "unchanged": true,
+        "different": false
+    },
+    null,
+    null,
+    null,
+    {
+        "context": {
+            "url": "/accounts/{accountId}/overdraft-limits",
+            "parameters": {},
+            "method": "GET",
+            "response": true,
+            "request": false,
+            "required": true
+        },
+        "oldValue": [],
+        "newValue": [],
+        "increased": [],
+        "missing": [],
+        "shared": [],
+        "compatible": true,
+        "incompatible": false,
+        "unchanged": true,
+        "different": false
+    },
+    {
+        "context": {
+            "url": "/accounts/{accountId}/overdraft-limits",
+            "parameters": {},
+            "method": "GET",
+            "response": true,
+            "request": false,
+            "required": true
+        },
+        "oldValue": [
+            "errors"
+        ],
+        "newValue": [
+            "errors"
+        ],
+        "increased": [],
+        "missing": [],
+        "shared": [
+            "errors"
+        ],
+        "compatible": true,
+        "incompatible": false,
+        "unchanged": true,
+        "different": false
+    },
+    {
+        "context": {
+            "url": "/accounts/{accountId}/overdraft-limits",
+            "parameters": {},
+            "method": "GET",
+            "response": true,
+            "request": false,
+            "required": true
+        },
+        "compatible": true,
+        "incompatible": false,
+        "unchanged": true,
+        "different": false
+    },
+    null
+],
+"compatible": false,
+"incompatible": true,
+"unchanged": false,
+"different": true
+}
+],
+"compatible": false,
+"incompatible": true,
+"unchanged": false,
+"different": true
+}
+},
+"changedElements": [
+{
+"oldSchema": {
+"required": [
+"errors"
+],
+"type": "object",
+"properties": {
+"errors": {
+    "maxItems": 13,
+    "minItems": 1,
+    "type": "array",
+    "exampleSetFlag": false,
+    "items": {
+        "required": [
+            "code",
+            "detail",
+            "title"
+        ],
+        "type": "object",
+        "properties": {
+            "code": {
+                "maxLength": 255,
+                "pattern": "[\\w\\W\\s]*",
+                "type": "string",
+                "description": "Código de erro específico do endpoint",
+                "exampleSetFlag": false
+            },
+            "title": {
+                "maxLength": 255,
+                "pattern": "[\\w\\W\\s]*",
+                "type": "string",
+                "description": "Título legível por humanos deste erro específico",
+                "exampleSetFlag": false
+            },
+            "detail": {
+                "maxLength": 2048,
+                "pattern": "[\\w\\W\\s]*",
+                "type": "string",
+                "description": "Descrição legível por humanos deste erro específico",
+                "exampleSetFlag": false
+            }
+        },
+        "additionalProperties": false,
+        "exampleSetFlag": false
+    }
+},
+"meta": {
+    "required": [
+        "requestDateTime",
+        "totalPages",
+        "totalRecords"
+    ],
+    "type": "object",
+    "properties": {
+        "totalRecords": {
+            "type": "integer",
+            "description": "Número total de registros no resultado",
+            "format": "int32",
+            "example": 1,
+            "exampleSetFlag": true
+        },
+        "totalPages": {
+            "type": "integer",
+            "description": "Número total de páginas no resultado",
+            "format": "int32",
+            "example": 1,
+            "exampleSetFlag": true
+        },
+        "requestDateTime": {
+            "maxLength": 20,
+            "type": "string",
+            "description": "Data e hora da consulta, conforme especificação RFC-3339, formato UTC.",
+            "exampleSetFlag": false
+        }
+    },
+    "additionalProperties": false,
+    "description": "Meta informações referente à API requisitada.",
+    "exampleSetFlag": false
+}
+},
+"additionalProperties": false,
+"exampleSetFlag": false
+},
+"newSchema": {
+"required": [
+"errors"
+],
+"type": "object",
+"properties": {
+"errors": {
+    "maxItems": 13,
+    "minItems": 1,
+    "type": "array",
+    "exampleSetFlag": false,
+    "items": {
+        "required": [
+            "code",
+            "detail",
+            "title"
+        ],
+        "type": "object",
+        "properties": {
+            "code": {
+                "maxLength": 255,
+                "pattern": "[\\w\\W\\s]*",
+                "type": "string",
+                "description": "Código de erro específico do endpoint",
+                "exampleSetFlag": false
+            },
+            "title": {
+                "maxLength": 255,
+                "pattern": "[\\w\\W\\s]*",
+                "type": "string",
+                "description": "Título legível por humanos deste erro específico",
+                "exampleSetFlag": false
+            },
+            "detail": {
+                "maxLength": 2048,
+                "pattern": "[\\w\\W\\s]*",
+                "type": "string",
+                "description": "Descrição legível por humanos deste erro específico",
+                "exampleSetFlag": false
+            }
+        },
+        "exampleSetFlag": false
+    }
+},
+"meta": {
+    "required": [
+        "requestDateTime"
+    ],
+    "type": "object",
+    "properties": {
+        "requestDateTime": {
+            "maxLength": 20,
+            "type": "string",
+            "description": "Data e hora da consulta, conforme especificação RFC-3339, formato UTC.",
+            "exampleSetFlag": false
+        }
+    },
+    "description": "Meta informações referente à API requisitada.",
+    "exampleSetFlag": false
+}
+},
+"exampleSetFlag": false
+},
+"context": {
+"url": "/accounts/{accountId}/overdraft-limits",
+"parameters": {},
+"method": "GET",
+"response": true,
+"request": false
+},
+"schema": {
+"context": {
+"url": "/accounts/{accountId}/overdraft-limits",
+"parameters": {},
+"method": "GET",
+"response": true,
+"request": false,
+"required": true
+},
+"oldSchema": {
+"required": [
+    "errors"
+],
+"type": "object",
+"properties": {
+    "errors": {
+        "maxItems": 13,
+        "minItems": 1,
+        "type": "array",
+        "exampleSetFlag": false,
+        "items": {
+            "required": [
+                "code",
+                "detail",
+                "title"
+            ],
+            "type": "object",
+            "properties": {
+                "code": {
+                    "maxLength": 255,
+                    "pattern": "[\\w\\W\\s]*",
+                    "type": "string",
+                    "description": "Código de erro específico do endpoint",
+                    "exampleSetFlag": false
+                },
+                "title": {
+                    "maxLength": 255,
+                    "pattern": "[\\w\\W\\s]*",
+                    "type": "string",
+                    "description": "Título legível por humanos deste erro específico",
+                    "exampleSetFlag": false
+                },
+                "detail": {
+                    "maxLength": 2048,
+                    "pattern": "[\\w\\W\\s]*",
+                    "type": "string",
+                    "description": "Descrição legível por humanos deste erro específico",
+                    "exampleSetFlag": false
+                }
+            },
+            "additionalProperties": false,
+            "exampleSetFlag": false
+        }
+    },
+    "meta": {
+        "required": [
+            "requestDateTime",
+            "totalPages",
+            "totalRecords"
+        ],
+        "type": "object",
+        "properties": {
+            "totalRecords": {
+                "type": "integer",
+                "description": "Número total de registros no resultado",
+                "format": "int32",
+                "example": 1,
+                "exampleSetFlag": true
+            },
+            "totalPages": {
+                "type": "integer",
+                "description": "Número total de páginas no resultado",
+                "format": "int32",
+                "example": 1,
+                "exampleSetFlag": true
+            },
+            "requestDateTime": {
+                "maxLength": 20,
+                "type": "string",
+                "description": "Data e hora da consulta, conforme especificação RFC-3339, formato UTC.",
+                "exampleSetFlag": false
+            }
+        },
+        "additionalProperties": false,
+        "description": "Meta informações referente à API requisitada.",
+        "exampleSetFlag": false
+    }
+},
+"additionalProperties": false,
+"exampleSetFlag": false
+},
+"newSchema": {
+"required": [
+    "errors"
+],
+"type": "object",
+"properties": {
+    "errors": {
+        "maxItems": 13,
+        "minItems": 1,
+        "type": "array",
+        "exampleSetFlag": false,
+        "items": {
+            "required": [
+                "code",
+                "detail",
+                "title"
+            ],
+            "type": "object",
+            "properties": {
+                "code": {
+                    "maxLength": 255,
+                    "pattern": "[\\w\\W\\s]*",
+                    "type": "string",
+                    "description": "Código de erro específico do endpoint",
+                    "exampleSetFlag": false
+                },
+                "title": {
+                    "maxLength": 255,
+                    "pattern": "[\\w\\W\\s]*",
+                    "type": "string",
+                    "description": "Título legível por humanos deste erro específico",
+                    "exampleSetFlag": false
+                },
+                "detail": {
+                    "maxLength": 2048,
+                    "pattern": "[\\w\\W\\s]*",
+                    "type": "string",
+                    "description": "Descrição legível por humanos deste erro específico",
+                    "exampleSetFlag": false
+                }
+            },
+            "exampleSetFlag": false
+        }
+    },
+    "meta": {
+        "required": [
+            "requestDateTime"
+        ],
+        "type": "object",
+        "properties": {
+            "requestDateTime": {
+                "maxLength": 20,
+                "type": "string",
+                "description": "Data e hora da consulta, conforme especificação RFC-3339, formato UTC.",
+                "exampleSetFlag": false
+            }
+        },
+        "description": "Meta informações referente à API requisitada.",
+        "exampleSetFlag": false
+    }
+},
+"exampleSetFlag": false
+},
+"changedProperties": {
+"meta": {
+    "context": {
+        "url": "/accounts/{accountId}/overdraft-limits",
+        "parameters": {},
+        "method": "GET",
+        "response": true,
+        "request": false,
+        "required": false
+    },
+    "oldSchema": {
+        "required": [
+            "requestDateTime",
+            "totalPages",
+            "totalRecords"
+        ],
+        "type": "object",
+        "properties": {
+            "totalRecords": {
+                "type": "integer",
+                "description": "Número total de registros no resultado",
+                "format": "int32",
+                "example": 1,
+                "exampleSetFlag": true
+            },
+            "totalPages": {
+                "type": "integer",
+                "description": "Número total de páginas no resultado",
+                "format": "int32",
+                "example": 1,
+                "exampleSetFlag": true
+            },
+            "requestDateTime": {
+                "maxLength": 20,
+                "type": "string",
+                "description": "Data e hora da consulta, conforme especificação RFC-3339, formato UTC.",
+                "exampleSetFlag": false
+            }
+        },
+        "additionalProperties": false,
+        "description": "Meta informações referente à API requisitada.",
+        "exampleSetFlag": false
+    },
+    "newSchema": {
+        "required": [
+            "requestDateTime"
+        ],
+        "type": "object",
+        "properties": {
+            "requestDateTime": {
+                "maxLength": 20,
+                "type": "string",
+                "description": "Data e hora da consulta, conforme especificação RFC-3339, formato UTC.",
+                "exampleSetFlag": false
+            }
+        },
+        "description": "Meta informações referente à API requisitada.",
+        "exampleSetFlag": false
+    },
+    "changedProperties": {},
+    "increasedProperties": {},
+    "missingProperties": {
+        "totalRecords": {
+            "type": "integer",
+            "description": "Número total de registros no resultado",
+            "format": "int32",
+            "example": 1,
+            "exampleSetFlag": true
+        },
+        "totalPages": {
+            "type": "integer",
+            "description": "Número total de páginas no resultado",
+            "format": "int32",
+            "example": 1,
+            "exampleSetFlag": true
+        }
+    },
+    "changeDeprecated": false,
+    "changeTitle": false,
+    "required": {
+        "context": {
+            "url": "/accounts/{accountId}/overdraft-limits",
+            "parameters": {},
+            "method": "GET",
+            "response": true,
+            "request": false,
+            "required": false
+        },
+        "oldValue": [
+            "requestDateTime",
+            "totalPages",
+            "totalRecords"
+        ],
+        "newValue": [
+            "requestDateTime"
+        ],
+        "increased": [],
+        "missing": [
+            "totalPages",
+            "totalRecords"
+        ],
+        "shared": [
+            "requestDateTime"
+        ],
+        "compatible": false,
+        "incompatible": true,
+        "unchanged": false,
+        "different": true
+    },
+    "changeDefault": false,
+    "enumeration": {
+        "context": {
+            "url": "/accounts/{accountId}/overdraft-limits",
+            "parameters": {},
+            "method": "GET",
+            "response": true,
+            "request": false,
+            "required": false
+        },
+        "oldValue": [],
+        "newValue": [],
+        "increased": [],
+        "missing": [],
+        "shared": [],
+        "compatible": true,
+        "incompatible": false,
+        "unchanged": true,
+        "different": false
+    },
+    "changeFormat": false,
+    "readOnly": {
+        "compatible": true,
+        "incompatible": false,
+        "unchanged": true,
+        "different": false
+    },
+    "writeOnly": {
+        "compatible": true,
+        "incompatible": false,
+        "unchanged": true,
+        "different": false
+    },
+    "changedType": false,
+    "maxLength": {
+        "context": {
+            "url": "/accounts/{accountId}/overdraft-limits",
+            "parameters": {},
+            "method": "GET",
+            "response": true,
+            "request": false,
+            "required": false
+        },
+        "compatible": true,
+        "incompatible": false,
+        "unchanged": true,
+        "different": false
+    },
+    "discriminatorPropertyChanged": false,
+    "changedElements": [
+        null,
+        {
+            "compatible": true,
+            "incompatible": false,
+            "unchanged": true,
+            "different": false
+        },
+        {
+            "compatible": true,
+            "incompatible": false,
+            "unchanged": true,
+            "different": false
+        },
+        null,
+        null,
+        null,
+        {
+            "context": {
+                "url": "/accounts/{accountId}/overdraft-limits",
+                "parameters": {},
+                "method": "GET",
+                "response": true,
+                "request": false,
+                "required": false
+            },
+            "oldValue": [],
+            "newValue": [],
+            "increased": [],
+            "missing": [],
+            "shared": [],
+            "compatible": true,
+            "incompatible": false,
+            "unchanged": true,
+            "different": false
+        },
+        {
+            "context": {
+                "url": "/accounts/{accountId}/overdraft-limits",
+                "parameters": {},
+                "method": "GET",
+                "response": true,
+                "request": false,
+                "required": false
+            },
+            "oldValue": [
+                "requestDateTime",
+                "totalPages",
+                "totalRecords"
+            ],
+            "newValue": [
+                "requestDateTime"
+            ],
+            "increased": [],
+            "missing": [
+                "totalPages",
+                "totalRecords"
+            ],
+            "shared": [
+                "requestDateTime"
+            ],
+            "compatible": false,
+            "incompatible": true,
+            "unchanged": false,
+            "different": true
+        },
+        {
+            "context": {
+                "url": "/accounts/{accountId}/overdraft-limits",
+                "parameters": {},
+                "method": "GET",
+                "response": true,
+                "request": false,
+                "required": false
+            },
+            "compatible": true,
+            "incompatible": false,
+            "unchanged": true,
+            "different": false
+        },
+        null
+    ],
+    "compatible": false,
+    "incompatible": true,
+    "unchanged": false,
+    "different": true
+}
+},
+"increasedProperties": {},
+"missingProperties": {},
+"changeDeprecated": false,
+"changeTitle": false,
+"required": {
+"context": {
+    "url": "/accounts/{accountId}/overdraft-limits",
+    "parameters": {},
+    "method": "GET",
+    "response": true,
+    "request": false,
+    "required": true
+},
+"oldValue": [
+    "errors"
+],
+"newValue": [
+    "errors"
+],
+"increased": [],
+"missing": [],
+"shared": [
+    "errors"
+],
+"compatible": true,
+"incompatible": false,
+"unchanged": true,
+"different": false
+},
+"changeDefault": false,
+"enumeration": {
+"context": {
+    "url": "/accounts/{accountId}/overdraft-limits",
+    "parameters": {},
+    "method": "GET",
+    "response": true,
+    "request": false,
+    "required": true
+},
+"oldValue": [],
+"newValue": [],
+"increased": [],
+"missing": [],
+"shared": [],
+"compatible": true,
+"incompatible": false,
+"unchanged": true,
+"different": false
+},
+"changeFormat": false,
+"readOnly": {
+"compatible": true,
+"incompatible": false,
+"unchanged": true,
+"different": false
+},
+"writeOnly": {
+"compatible": true,
+"incompatible": false,
+"unchanged": true,
+"different": false
+},
+"changedType": false,
+"maxLength": {
+"context": {
+    "url": "/accounts/{accountId}/overdraft-limits",
+    "parameters": {},
+    "method": "GET",
+    "response": true,
+    "request": false,
+    "required": true
+},
+"compatible": true,
+"incompatible": false,
+"unchanged": true,
+"different": false
+},
+"discriminatorPropertyChanged": false,
+"changedElements": [
+{
+    "context": {
+        "url": "/accounts/{accountId}/overdraft-limits",
+        "parameters": {},
+        "method": "GET",
+        "response": true,
+        "request": false,
+        "required": false
+    },
+    "oldSchema": {
+        "required": [
+            "requestDateTime",
+            "totalPages",
+            "totalRecords"
+        ],
+        "type": "object",
+        "properties": {
+            "totalRecords": {
+                "type": "integer",
+                "description": "Número total de registros no resultado",
+                "format": "int32",
+                "example": 1,
+                "exampleSetFlag": true
+            },
+            "totalPages": {
+                "type": "integer",
+                "description": "Número total de páginas no resultado",
+                "format": "int32",
+                "example": 1,
+                "exampleSetFlag": true
+            },
+            "requestDateTime": {
+                "maxLength": 20,
+                "type": "string",
+                "description": "Data e hora da consulta, conforme especificação RFC-3339, formato UTC.",
+                "exampleSetFlag": false
+            }
+        },
+        "additionalProperties": false,
+        "description": "Meta informações referente à API requisitada.",
+        "exampleSetFlag": false
+    },
+    "newSchema": {
+        "required": [
+            "requestDateTime"
+        ],
+        "type": "object",
+        "properties": {
+            "requestDateTime": {
+                "maxLength": 20,
+                "type": "string",
+                "description": "Data e hora da consulta, conforme especificação RFC-3339, formato UTC.",
+                "exampleSetFlag": false
+            }
+        },
+        "description": "Meta informações referente à API requisitada.",
+        "exampleSetFlag": false
+    },
+    "changedProperties": {},
+    "increasedProperties": {},
+    "missingProperties": {
+        "totalRecords": {
+            "type": "integer",
+            "description": "Número total de registros no resultado",
+            "format": "int32",
+            "example": 1,
+            "exampleSetFlag": true
+        },
+        "totalPages": {
+            "type": "integer",
+            "description": "Número total de páginas no resultado",
+            "format": "int32",
+            "example": 1,
+            "exampleSetFlag": true
+        }
+    },
+    "changeDeprecated": false,
+    "changeTitle": false,
+    "required": {
+        "context": {
+            "url": "/accounts/{accountId}/overdraft-limits",
+            "parameters": {},
+            "method": "GET",
+            "response": true,
+            "request": false,
+            "required": false
+        },
+        "oldValue": [
+            "requestDateTime",
+            "totalPages",
+            "totalRecords"
+        ],
+        "newValue": [
+            "requestDateTime"
+        ],
+        "increased": [],
+        "missing": [
+            "totalPages",
+            "totalRecords"
+        ],
+        "shared": [
+            "requestDateTime"
+        ],
+        "compatible": false,
+        "incompatible": true,
+        "unchanged": false,
+        "different": true
+    },
+    "changeDefault": false,
+    "enumeration": {
+        "context": {
+            "url": "/accounts/{accountId}/overdraft-limits",
+            "parameters": {},
+            "method": "GET",
+            "response": true,
+            "request": false,
+            "required": false
+        },
+        "oldValue": [],
+        "newValue": [],
+        "increased": [],
+        "missing": [],
+        "shared": [],
+        "compatible": true,
+        "incompatible": false,
+        "unchanged": true,
+        "different": false
+    },
+    "changeFormat": false,
+    "readOnly": {
+        "compatible": true,
+        "incompatible": false,
+        "unchanged": true,
+        "different": false
+    },
+    "writeOnly": {
+        "compatible": true,
+        "incompatible": false,
+        "unchanged": true,
+        "different": false
+    },
+    "changedType": false,
+    "maxLength": {
+        "context": {
+            "url": "/accounts/{accountId}/overdraft-limits",
+            "parameters": {},
+            "method": "GET",
+            "response": true,
+            "request": false,
+            "required": false
+        },
+        "compatible": true,
+        "incompatible": false,
+        "unchanged": true,
+        "different": false
+    },
+    "discriminatorPropertyChanged": false,
+    "changedElements": [
+        null,
+        {
+            "compatible": true,
+            "incompatible": false,
+            "unchanged": true,
+            "different": false
+        },
+        {
+            "compatible": true,
+            "incompatible": false,
+            "unchanged": true,
+            "different": false
+        },
+        null,
+        null,
+        null,
+        {
+            "context": {
+                "url": "/accounts/{accountId}/overdraft-limits",
+                "parameters": {},
+                "method": "GET",
+                "response": true,
+                "request": false,
+                "required": false
+            },
+            "oldValue": [],
+            "newValue": [],
+            "increased": [],
+            "missing": [],
+            "shared": [],
+            "compatible": true,
+            "incompatible": false,
+            "unchanged": true,
+            "different": false
+        },
+        {
+            "context": {
+                "url": "/accounts/{accountId}/overdraft-limits",
+                "parameters": {},
+                "method": "GET",
+                "response": true,
+                "request": false,
+                "required": false
+            },
+            "oldValue": [
+                "requestDateTime",
+                "totalPages",
+                "totalRecords"
+            ],
+            "newValue": [
+                "requestDateTime"
+            ],
+            "increased": [],
+            "missing": [
+                "totalPages",
+                "totalRecords"
+            ],
+            "shared": [
+                "requestDateTime"
+            ],
+            "compatible": false,
+            "incompatible": true,
+            "unchanged": false,
+            "different": true
+        },
+        {
+            "context": {
+                "url": "/accounts/{accountId}/overdraft-limits",
+                "parameters": {},
+                "method": "GET",
+                "response": true,
+                "request": false,
+                "required": false
+            },
+            "compatible": true,
+            "incompatible": false,
+            "unchanged": true,
+            "different": false
+        },
+        null
+    ],
+    "compatible": false,
+    "incompatible": true,
+    "unchanged": false,
+    "different": true
+},
+null,
+{
+    "compatible": true,
+    "incompatible": false,
+    "unchanged": true,
+    "different": false
+},
+{
+    "compatible": true,
+    "incompatible": false,
+    "unchanged": true,
+    "different": false
+},
+null,
+null,
+null,
+{
+    "context": {
+        "url": "/accounts/{accountId}/overdraft-limits",
+        "parameters": {},
+        "method": "GET",
+        "response": true,
+        "request": false,
+        "required": true
+    },
+    "oldValue": [],
+    "newValue": [],
+    "increased": [],
+    "missing": [],
+    "shared": [],
+    "compatible": true,
+    "incompatible": false,
+    "unchanged": true,
+    "different": false
+},
+{
+    "context": {
+        "url": "/accounts/{accountId}/overdraft-limits",
+        "parameters": {},
+        "method": "GET",
+        "response": true,
+        "request": false,
+        "required": true
+    },
+    "oldValue": [
+        "errors"
+    ],
+    "newValue": [
+        "errors"
+    ],
+    "increased": [],
+    "missing": [],
+    "shared": [
+        "errors"
+    ],
+    "compatible": true,
+    "incompatible": false,
+    "unchanged": true,
+    "different": false
+},
+{
+    "context": {
+        "url": "/accounts/{accountId}/overdraft-limits",
+        "parameters": {},
+        "method": "GET",
+        "response": true,
+        "request": false,
+        "required": true
+    },
+    "compatible": true,
+    "incompatible": false,
+    "unchanged": true,
+    "different": false
+},
+null
+],
+"compatible": false,
+"incompatible": true,
+"unchanged": false,
+"different": true
+},
+"changedElements": [
+{
+"context": {
+    "url": "/accounts/{accountId}/overdraft-limits",
+    "parameters": {},
+    "method": "GET",
+    "response": true,
+    "request": false,
+    "required": true
+},
+"oldSchema": {
+    "required": [
+        "errors"
+    ],
+    "type": "object",
+    "properties": {
+        "errors": {
+            "maxItems": 13,
+            "minItems": 1,
+            "type": "array",
+            "exampleSetFlag": false,
+            "items": {
+                "required": [
+                    "code",
+                    "detail",
+                    "title"
+                ],
+                "type": "object",
+                "properties": {
+                    "code": {
+                        "maxLength": 255,
+                        "pattern": "[\\w\\W\\s]*",
+                        "type": "string",
+                        "description": "Código de erro específico do endpoint",
+                        "exampleSetFlag": false
+                    },
+                    "title": {
+                        "maxLength": 255,
+                        "pattern": "[\\w\\W\\s]*",
+                        "type": "string",
+                        "description": "Título legível por humanos deste erro específico",
+                        "exampleSetFlag": false
+                    },
+                    "detail": {
+                        "maxLength": 2048,
+                        "pattern": "[\\w\\W\\s]*",
+                        "type": "string",
+                        "description": "Descrição legível por humanos deste erro específico",
+                        "exampleSetFlag": false
+                    }
+                },
+                "additionalProperties": false,
+                "exampleSetFlag": false
+            }
+        },
+        "meta": {
+            "required": [
+                "requestDateTime",
+                "totalPages",
+                "totalRecords"
+            ],
+            "type": "object",
+            "properties": {
+                "totalRecords": {
+                    "type": "integer",
+                    "description": "Número total de registros no resultado",
+                    "format": "int32",
+                    "example": 1,
+                    "exampleSetFlag": true
+                },
+                "totalPages": {
+                    "type": "integer",
+                    "description": "Número total de páginas no resultado",
+                    "format": "int32",
+                    "example": 1,
+                    "exampleSetFlag": true
+                },
+                "requestDateTime": {
+                    "maxLength": 20,
+                    "type": "string",
+                    "description": "Data e hora da consulta, conforme especificação RFC-3339, formato UTC.",
+                    "exampleSetFlag": false
+                }
+            },
+            "additionalProperties": false,
+            "description": "Meta informações referente à API requisitada.",
+            "exampleSetFlag": false
+        }
+    },
+    "additionalProperties": false,
+    "exampleSetFlag": false
+},
+"newSchema": {
+    "required": [
+        "errors"
+    ],
+    "type": "object",
+    "properties": {
+        "errors": {
+            "maxItems": 13,
+            "minItems": 1,
+            "type": "array",
+            "exampleSetFlag": false,
+            "items": {
+                "required": [
+                    "code",
+                    "detail",
+                    "title"
+                ],
+                "type": "object",
+                "properties": {
+                    "code": {
+                        "maxLength": 255,
+                        "pattern": "[\\w\\W\\s]*",
+                        "type": "string",
+                        "description": "Código de erro específico do endpoint",
+                        "exampleSetFlag": false
+                    },
+                    "title": {
+                        "maxLength": 255,
+                        "pattern": "[\\w\\W\\s]*",
+                        "type": "string",
+                        "description": "Título legível por humanos deste erro específico",
+                        "exampleSetFlag": false
+                    },
+                    "detail": {
+                        "maxLength": 2048,
+                        "pattern": "[\\w\\W\\s]*",
+                        "type": "string",
+                        "description": "Descrição legível por humanos deste erro específico",
+                        "exampleSetFlag": false
+                    }
+                },
+                "exampleSetFlag": false
+            }
+        },
+        "meta": {
+            "required": [
+                "requestDateTime"
+            ],
+            "type": "object",
+            "properties": {
+                "requestDateTime": {
+                    "maxLength": 20,
+                    "type": "string",
+                    "description": "Data e hora da consulta, conforme especificação RFC-3339, formato UTC.",
+                    "exampleSetFlag": false
+                }
+            },
+            "description": "Meta informações referente à API requisitada.",
+            "exampleSetFlag": false
+        }
+    },
+    "exampleSetFlag": false
+},
+"changedProperties": {
+    "meta": {
+        "context": {
+            "url": "/accounts/{accountId}/overdraft-limits",
+            "parameters": {},
+            "method": "GET",
+            "response": true,
+            "request": false,
+            "required": false
+        },
+        "oldSchema": {
+            "required": [
+                "requestDateTime",
+                "totalPages",
+                "totalRecords"
+            ],
+            "type": "object",
+            "properties": {
+                "totalRecords": {
+                    "type": "integer",
+                    "description": "Número total de registros no resultado",
+                    "format": "int32",
+                    "example": 1,
+                    "exampleSetFlag": true
+                },
+                "totalPages": {
+                    "type": "integer",
+                    "description": "Número total de páginas no resultado",
+                    "format": "int32",
+                    "example": 1,
+                    "exampleSetFlag": true
+                },
+                "requestDateTime": {
+                    "maxLength": 20,
+                    "type": "string",
+                    "description": "Data e hora da consulta, conforme especificação RFC-3339, formato UTC.",
+                    "exampleSetFlag": false
+                }
+            },
+            "additionalProperties": false,
+            "description": "Meta informações referente à API requisitada.",
+            "exampleSetFlag": false
+        },
+        "newSchema": {
+            "required": [
+                "requestDateTime"
+            ],
+            "type": "object",
+            "properties": {
+                "requestDateTime": {
+                    "maxLength": 20,
+                    "type": "string",
+                    "description": "Data e hora da consulta, conforme especificação RFC-3339, formato UTC.",
+                    "exampleSetFlag": false
+                }
+            },
+            "description": "Meta informações referente à API requisitada.",
+            "exampleSetFlag": false
+        },
+        "changedProperties": {},
+        "increasedProperties": {},
+        "missingProperties": {
+            "totalRecords": {
+                "type": "integer",
+                "description": "Número total de registros no resultado",
+                "format": "int32",
+                "example": 1,
+                "exampleSetFlag": true
+            },
+            "totalPages": {
+                "type": "integer",
+                "description": "Número total de páginas no resultado",
+                "format": "int32",
+                "example": 1,
+                "exampleSetFlag": true
+            }
+        },
+        "changeDeprecated": false,
+        "changeTitle": false,
+        "required": {
+            "context": {
+                "url": "/accounts/{accountId}/overdraft-limits",
+                "parameters": {},
+                "method": "GET",
+                "response": true,
+                "request": false,
+                "required": false
+            },
+            "oldValue": [
+                "requestDateTime",
+                "totalPages",
+                "totalRecords"
+            ],
+            "newValue": [
+                "requestDateTime"
+            ],
+            "increased": [],
+            "missing": [
+                "totalPages",
+                "totalRecords"
+            ],
+            "shared": [
+                "requestDateTime"
+            ],
+            "compatible": false,
+            "incompatible": true,
+            "unchanged": false,
+            "different": true
+        },
+        "changeDefault": false,
+        "enumeration": {
+            "context": {
+                "url": "/accounts/{accountId}/overdraft-limits",
+                "parameters": {},
+                "method": "GET",
+                "response": true,
+                "request": false,
+                "required": false
+            },
+            "oldValue": [],
+            "newValue": [],
+            "increased": [],
+            "missing": [],
+            "shared": [],
+            "compatible": true,
+            "incompatible": false,
+            "unchanged": true,
+            "different": false
+        },
+        "changeFormat": false,
+        "readOnly": {
+            "compatible": true,
+            "incompatible": false,
+            "unchanged": true,
+            "different": false
+        },
+        "writeOnly": {
+            "compatible": true,
+            "incompatible": false,
+            "unchanged": true,
+            "different": false
+        },
+        "changedType": false,
+        "maxLength": {
+            "context": {
+                "url": "/accounts/{accountId}/overdraft-limits",
+                "parameters": {},
+                "method": "GET",
+                "response": true,
+                "request": false,
+                "required": false
+            },
+            "compatible": true,
+            "incompatible": false,
+            "unchanged": true,
+            "different": false
+        },
+        "discriminatorPropertyChanged": false,
+        "changedElements": [
+            null,
+            {
+                "compatible": true,
+                "incompatible": false,
+                "unchanged": true,
+                "different": false
+            },
+            {
+                "compatible": true,
+                "incompatible": false,
+                "unchanged": true,
+                "different": false
+            },
+            null,
+            null,
+            null,
+            {
+                "context": {
+                    "url": "/accounts/{accountId}/overdraft-limits",
+                    "parameters": {},
+                    "method": "GET",
+                    "response": true,
+                    "request": false,
+                    "required": false
+                },
+                "oldValue": [],
+                "newValue": [],
+                "increased": [],
+                "missing": [],
+                "shared": [],
+                "compatible": true,
+                "incompatible": false,
+                "unchanged": true,
+                "different": false
+            },
+            {
+                "context": {
+                    "url": "/accounts/{accountId}/overdraft-limits",
+                    "parameters": {},
+                    "method": "GET",
+                    "response": true,
+                    "request": false,
+                    "required": false
+                },
+                "oldValue": [
+                    "requestDateTime",
+                    "totalPages",
+                    "totalRecords"
+                ],
+                "newValue": [
+                    "requestDateTime"
+                ],
+                "increased": [],
+                "missing": [
+                    "totalPages",
+                    "totalRecords"
+                ],
+                "shared": [
+                    "requestDateTime"
+                ],
+                "compatible": false,
+                "incompatible": true,
+                "unchanged": false,
+                "different": true
+            },
+            {
+                "context": {
+                    "url": "/accounts/{accountId}/overdraft-limits",
+                    "parameters": {},
+                    "method": "GET",
+                    "response": true,
+                    "request": false,
+                    "required": false
+                },
+                "compatible": true,
+                "incompatible": false,
+                "unchanged": true,
+                "different": false
+            },
+            null
+        ],
+        "compatible": false,
+        "incompatible": true,
+        "unchanged": false,
+        "different": true
+    }
+},
+"increasedProperties": {},
+"missingProperties": {},
+"changeDeprecated": false,
+"changeTitle": false,
+"required": {
+    "context": {
+        "url": "/accounts/{accountId}/overdraft-limits",
+        "parameters": {},
+        "method": "GET",
+        "response": true,
+        "request": false,
+        "required": true
+    },
+    "oldValue": [
+        "errors"
+    ],
+    "newValue": [
+        "errors"
+    ],
+    "increased": [],
+    "missing": [],
+    "shared": [
+        "errors"
+    ],
+    "compatible": true,
+    "incompatible": false,
+    "unchanged": true,
+    "different": false
+},
+"changeDefault": false,
+"enumeration": {
+    "context": {
+        "url": "/accounts/{accountId}/overdraft-limits",
+        "parameters": {},
+        "method": "GET",
+        "response": true,
+        "request": false,
+        "required": true
+    },
+    "oldValue": [],
+    "newValue": [],
+    "increased": [],
+    "missing": [],
+    "shared": [],
+    "compatible": true,
+    "incompatible": false,
+    "unchanged": true,
+    "different": false
+},
+"changeFormat": false,
+"readOnly": {
+    "compatible": true,
+    "incompatible": false,
+    "unchanged": true,
+    "different": false
+},
+"writeOnly": {
+    "compatible": true,
+    "incompatible": false,
+    "unchanged": true,
+    "different": false
+},
+"changedType": false,
+"maxLength": {
+    "context": {
+        "url": "/accounts/{accountId}/overdraft-limits",
+        "parameters": {},
+        "method": "GET",
+        "response": true,
+        "request": false,
+        "required": true
+    },
+    "compatible": true,
+    "incompatible": false,
+    "unchanged": true,
+    "different": false
+},
+"discriminatorPropertyChanged": false,
+"changedElements": [
+    {
+        "context": {
+            "url": "/accounts/{accountId}/overdraft-limits",
+            "parameters": {},
+            "method": "GET",
+            "response": true,
+            "request": false,
+            "required": false
+        },
+        "oldSchema": {
+            "required": [
+                "requestDateTime",
+                "totalPages",
+                "totalRecords"
+            ],
+            "type": "object",
+            "properties": {
+                "totalRecords": {
+                    "type": "integer",
+                    "description": "Número total de registros no resultado",
+                    "format": "int32",
+                    "example": 1,
+                    "exampleSetFlag": true
+                },
+                "totalPages": {
+                    "type": "integer",
+                    "description": "Número total de páginas no resultado",
+                    "format": "int32",
+                    "example": 1,
+                    "exampleSetFlag": true
+                },
+                "requestDateTime": {
+                    "maxLength": 20,
+                    "type": "string",
+                    "description": "Data e hora da consulta, conforme especificação RFC-3339, formato UTC.",
+                    "exampleSetFlag": false
+                }
+            },
+            "additionalProperties": false,
+            "description": "Meta informações referente à API requisitada.",
+            "exampleSetFlag": false
+        },
+        "newSchema": {
+            "required": [
+                "requestDateTime"
+            ],
+            "type": "object",
+            "properties": {
+                "requestDateTime": {
+                    "maxLength": 20,
+                    "type": "string",
+                    "description": "Data e hora da consulta, conforme especificação RFC-3339, formato UTC.",
+                    "exampleSetFlag": false
+                }
+            },
+            "description": "Meta informações referente à API requisitada.",
+            "exampleSetFlag": false
+        },
+        "changedProperties": {},
+        "increasedProperties": {},
+        "missingProperties": {
+            "totalRecords": {
+                "type": "integer",
+                "description": "Número total de registros no resultado",
+                "format": "int32",
+                "example": 1,
+                "exampleSetFlag": true
+            },
+            "totalPages": {
+                "type": "integer",
+                "description": "Número total de páginas no resultado",
+                "format": "int32",
+                "example": 1,
+                "exampleSetFlag": true
+            }
+        },
+        "changeDeprecated": false,
+        "changeTitle": false,
+        "required": {
+            "context": {
+                "url": "/accounts/{accountId}/overdraft-limits",
+                "parameters": {},
+                "method": "GET",
+                "response": true,
+                "request": false,
+                "required": false
+            },
+            "oldValue": [
+                "requestDateTime",
+                "totalPages",
+                "totalRecords"
+            ],
+            "newValue": [
+                "requestDateTime"
+            ],
+            "increased": [],
+            "missing": [
+                "totalPages",
+                "totalRecords"
+            ],
+            "shared": [
+                "requestDateTime"
+            ],
+            "compatible": false,
+            "incompatible": true,
+            "unchanged": false,
+            "different": true
+        },
+        "changeDefault": false,
+        "enumeration": {
+            "context": {
+                "url": "/accounts/{accountId}/overdraft-limits",
+                "parameters": {},
+                "method": "GET",
+                "response": true,
+                "request": false,
+                "required": false
+            },
+            "oldValue": [],
+            "newValue": [],
+            "increased": [],
+            "missing": [],
+            "shared": [],
+            "compatible": true,
+            "incompatible": false,
+            "unchanged": true,
+            "different": false
+        },
+        "changeFormat": false,
+        "readOnly": {
+            "compatible": true,
+            "incompatible": false,
+            "unchanged": true,
+            "different": false
+        },
+        "writeOnly": {
+            "compatible": true,
+            "incompatible": false,
+            "unchanged": true,
+            "different": false
+        },
+        "changedType": false,
+        "maxLength": {
+            "context": {
+                "url": "/accounts/{accountId}/overdraft-limits",
+                "parameters": {},
+                "method": "GET",
+                "response": true,
+                "request": false,
+                "required": false
+            },
+            "compatible": true,
+            "incompatible": false,
+            "unchanged": true,
+            "different": false
+        },
+        "discriminatorPropertyChanged": false,
+        "changedElements": [
+            null,
+            {
+                "compatible": true,
+                "incompatible": false,
+                "unchanged": true,
+                "different": false
+            },
+            {
+                "compatible": true,
+                "incompatible": false,
+                "unchanged": true,
+                "different": false
+            },
+            null,
+            null,
+            null,
+            {
+                "context": {
+                    "url": "/accounts/{accountId}/overdraft-limits",
+                    "parameters": {},
+                    "method": "GET",
+                    "response": true,
+                    "request": false,
+                    "required": false
+                },
+                "oldValue": [],
+                "newValue": [],
+                "increased": [],
+                "missing": [],
+                "shared": [],
+                "compatible": true,
+                "incompatible": false,
+                "unchanged": true,
+                "different": false
+            },
+            {
+                "context": {
+                    "url": "/accounts/{accountId}/overdraft-limits",
+                    "parameters": {},
+                    "method": "GET",
+                    "response": true,
+                    "request": false,
+                    "required": false
+                },
+                "oldValue": [
+                    "requestDateTime",
+                    "totalPages",
+                    "totalRecords"
+                ],
+                "newValue": [
+                    "requestDateTime"
+                ],
+                "increased": [],
+                "missing": [
+                    "totalPages",
+                    "totalRecords"
+                ],
+                "shared": [
+                    "requestDateTime"
+                ],
+                "compatible": false,
+                "incompatible": true,
+                "unchanged": false,
+                "different": true
+            },
+            {
+                "context": {
+                    "url": "/accounts/{accountId}/overdraft-limits",
+                    "parameters": {},
+                    "method": "GET",
+                    "response": true,
+                    "request": false,
+                    "required": false
+                },
+                "compatible": true,
+                "incompatible": false,
+                "unchanged": true,
+                "different": false
+            },
+            null
+        ],
+        "compatible": false,
+        "incompatible": true,
+        "unchanged": false,
+        "different": true
+    },
+    null,
+    {
+        "compatible": true,
+        "incompatible": false,
+        "unchanged": true,
+        "different": false
+    },
+    {
+        "compatible": true,
+        "incompatible": false,
+        "unchanged": true,
+        "different": false
+    },
+    null,
+    null,
+    null,
+    {
+        "context": {
+            "url": "/accounts/{accountId}/overdraft-limits",
+            "parameters": {},
+            "method": "GET",
+            "response": true,
+            "request": false,
+            "required": true
+        },
+        "oldValue": [],
+        "newValue": [],
+        "increased": [],
+        "missing": [],
+        "shared": [],
+        "compatible": true,
+        "incompatible": false,
+        "unchanged": true,
+        "different": false
+    },
+    {
+        "context": {
+            "url": "/accounts/{accountId}/overdraft-limits",
+            "parameters": {},
+            "method": "GET",
+            "response": true,
+            "request": false,
+            "required": true
+        },
+        "oldValue": [
+            "errors"
+        ],
+        "newValue": [
+            "errors"
+        ],
+        "increased": [],
+        "missing": [],
+        "shared": [
+            "errors"
+        ],
+        "compatible": true,
+        "incompatible": false,
+        "unchanged": true,
+        "different": false
+    },
+    {
+        "context": {
+            "url": "/accounts/{accountId}/overdraft-limits",
+            "parameters": {},
+            "method": "GET",
+            "response": true,
+            "request": false,
+            "required": true
+        },
+        "compatible": true,
+        "incompatible": false,
+        "unchanged": true,
+        "different": false
+    },
+    null
+],
+"compatible": false,
+"incompatible": true,
+"unchanged": false,
+"different": true
+}
+],
+"compatible": false,
+"incompatible": true,
+"unchanged": false,
+"different": true
+}
+],
+"compatible": false,
+"incompatible": true,
+"unchanged": false,
+"different": true
+},
+null
+],
+"compatible": false,
+"incompatible": true,
+"unchanged": false,
+"different": true
+},
+{
+"oldApiResponse": {
+"description": "Dados de limites da conta identificada por accountId obtidos com sucesso.",
+"headers": {
+"x-fapi-interaction-id": {
+"style": "SIMPLE",
+"explode": false,
+"schema": {
+"maxLength": 100,
+"pattern": "^[a-zA-Z0-9][a-zA-Z0-9\\-]{0,99}$",
+"type": "string",
+"description": "Um UID [RFC4122](https://tools.ietf.org/html/rfc4122) usado como um ID de correlação. Se fornecido, o transmissor deve \"reproduzir\" esse valor no cabeçalho de resposta.",
+"exampleSetFlag": false
+}
+}
+},
+"content": {
+"application/json": {
+"schema": {
+"required": [
+"data",
+"links",
+"meta"
+],
+"type": "object",
+"properties": {
+"data": {
+"required": [
+    "overdraftContractedLimit",
+    "overdraftContractedLimitCurrency",
+    "overdraftUsedLimit",
+    "overdraftUsedLimitCurrency",
+    "unarrangedOverdraftAmount",
+    "unarrangedOverdraftAmountCurrency"
+],
+"type": "object",
+"properties": {
+    "overdraftContractedLimit": {
+        "maxLength": 20,
+        "minLength": 0,
+        "pattern": "^-?\\d{1,15}\\.\\d{2,4}$",
+        "type": "number",
+        "description": "Valor do limite contratado do cheque especial.",
+        "format": "double",
+        "nullable": true,
+        "example": 99.9999,
+        "exampleSetFlag": true
+    },
+    "overdraftContractedLimitCurrency": {
+        "maxLength": 3,
+        "pattern": "^(\\w{3}){1}$",
+        "type": "string",
+        "description": "Moeda referente ao valor do limite contratado do cheque especial, segundo modelo ISO-4217. p.ex. 'BRL'. Pode ser preenchido com “NA” caso a instituição não possua a informação.",
+        "example": "BRL",
+        "exampleSetFlag": true
+    },
+    "overdraftUsedLimit": {
+        "maxLength": 20,
+        "minLength": 0,
+        "pattern": "^-?\\d{1,15}\\.\\d{2,4}$",
+        "type": "number",
+        "description": "Valor utilizado total do limite do cheque especial e o adiantamento a depositante.",
+        "format": "double",
+        "nullable": true,
+        "example": 10000.9999,
+        "exampleSetFlag": true
+    },
+    "overdraftUsedLimitCurrency": {
+        "maxLength": 3,
+        "pattern": "^(\\w{3}){1}$",
+        "type": "string",
+        "description": "Moeda referente ao valor utilizado total do limite do cheque especial e o adiantamento a depositante, segundo modelo ISO-4217. p.ex. 'BRL'. Pode ser preenchido com “NA” caso a instituição não possua a informação.",
+        "example": "BRL",
+        "exampleSetFlag": true
+    },
+    "unarrangedOverdraftAmount": {
+        "maxLength": 20,
+        "minLength": 0,
+        "pattern": "^-?\\d{1,15}\\.\\d{2,4}$",
+        "type": "number",
+        "description": "Valor de operação contratada em caráter emergencial para cobertura de saldo devedor em conta de depósitos à vista e de excesso sobre o limite pactuado de cheque especial.",
+        "format": "double",
+        "nullable": true,
+        "example": 99.9999,
+        "exampleSetFlag": true
+    },
+    "unarrangedOverdraftAmountCurrency": {
+        "maxLength": 3,
+        "pattern": "^(\\w{3}){1}$",
+        "type": "string",
+        "description": "Moeda referente ao valor de operação contratada em caráter emergencial para cobertura de saldo devedor em conta de depósitos à vista e de excesso sobre o limite pactuado de cheque especial, segundo modelo ISO-4217. p.ex. 'BRL'. Pode ser preenchido com “NA” caso a instituição não possua a informação.",
+        "example": "BRL",
+        "exampleSetFlag": true
+    }
+},
+"additionalProperties": false,
+"description": "Conjunto de informações da Conta de: depósito à vista\n",
+"exampleSetFlag": false
+},
+"links": {
+"required": [
+    "self"
+],
+"type": "object",
+"properties": {
+    "self": {
+        "maxLength": 2000,
+        "pattern": "^(https?:\\/\\/)?(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{2,256}\\.[a-z]{2,6}\\b([-a-zA-Z0-9@:%_\\+.~#?&\\/\\/=]*)$",
+        "type": "string",
+        "description": "URI completo que gerou a resposta atual.",
+        "format": "uri",
+        "example": "https://api.banco.com.br/open-banking/api/v1/resource",
+        "exampleSetFlag": true
+    },
+    "first": {
+        "maxLength": 2000,
+        "pattern": "^(https?:\\/\\/)?(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{2,256}\\.[a-z]{2,6}\\b([-a-zA-Z0-9@:%_\\+.~#?&\\/\\/=]*)$",
+        "type": "string",
+        "description": "URI da primeira página que originou essa lista de resultados. Restrição - Obrigatório quando não for a primeira página da resposta",
+        "format": "uri",
+        "example": "https://api.banco.com.br/open-banking/api/v1/resource",
+        "exampleSetFlag": true
+    },
+    "prev": {
+        "maxLength": 2000,
+        "pattern": "^(https?:\\/\\/)?(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{2,256}\\.[a-z]{2,6}\\b([-a-zA-Z0-9@:%_\\+.~#?&\\/\\/=]*)$",
+        "type": "string",
+        "description": "URI da página anterior dessa lista de resultados. Restrição - \tObrigatório quando não for a primeira página da resposta",
+        "format": "uri",
+        "example": "https://api.banco.com.br/open-banking/api/v1/resource",
+        "exampleSetFlag": true
+    },
+    "next": {
+        "maxLength": 2000,
+        "pattern": "^(https?:\\/\\/)?(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{2,256}\\.[a-z]{2,6}\\b([-a-zA-Z0-9@:%_\\+.~#?&\\/\\/=]*)$",
+        "type": "string",
+        "description": "URI da próxima página dessa lista de resultados. Restrição - Obrigatório quando não for a última página da resposta",
+        "format": "uri",
+        "example": "https://api.banco.com.br/open-banking/api/v1/resource",
+        "exampleSetFlag": true
+    },
+    "last": {
+        "maxLength": 2000,
+        "pattern": "^(https?:\\/\\/)?(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{2,256}\\.[a-z]{2,6}\\b([-a-zA-Z0-9@:%_\\+.~#?&\\/\\/=]*)$",
+        "type": "string",
+        "description": "URI da última página dessa lista de resultados. Restrição - Obrigatório quando não for a última página da resposta",
+        "format": "uri",
+        "example": "https://api.banco.com.br/open-banking/api/v1/resource",
+        "exampleSetFlag": true
+    }
+},
+"additionalProperties": false,
+"description": "Referências para outros recusos da API requisitada.",
+"exampleSetFlag": false
+},
+"meta": {
+"required": [
+    "requestDateTime",
+    "totalPages",
+    "totalRecords"
+],
+"type": "object",
+"properties": {
+    "totalRecords": {
+        "type": "integer",
+        "description": "Número total de registros no resultado",
+        "format": "int32",
+        "example": 1,
+        "exampleSetFlag": true
+    },
+    "totalPages": {
+        "type": "integer",
+        "description": "Número total de páginas no resultado",
+        "format": "int32",
+        "example": 1,
+        "exampleSetFlag": true
+    },
+    "requestDateTime": {
+        "maxLength": 20,
+        "type": "string",
+        "description": "Data e hora da consulta, conforme especificação RFC-3339, formato UTC.",
+        "exampleSetFlag": false
+    }
+},
+"additionalProperties": false,
+"description": "Meta informações referente à API requisitada.",
+"exampleSetFlag": false
+}
+},
+"additionalProperties": false,
+"exampleSetFlag": false
+},
+"exampleSetFlag": false
+}
+}
+},
+"newApiResponse": {
+"description": "Erro inesperado.",
+"content": {
+"application/json; charset=utf-8": {
+"schema": {
+"required": [
+"errors"
+],
+"type": "object",
+"properties": {
+"errors": {
+"maxItems": 13,
+"minItems": 1,
+"type": "array",
+"exampleSetFlag": false,
+"items": {
+    "required": [
+        "code",
+        "detail",
+        "title"
+    ],
+    "type": "object",
+    "properties": {
+        "code": {
+            "maxLength": 255,
+            "pattern": "[\\w\\W\\s]*",
+            "type": "string",
+            "description": "Código de erro específico do endpoint",
+            "exampleSetFlag": false
+        },
+        "title": {
+            "maxLength": 255,
+            "pattern": "[\\w\\W\\s]*",
+            "type": "string",
+            "description": "Título legível por humanos deste erro específico",
+            "exampleSetFlag": false
+        },
+        "detail": {
+            "maxLength": 2048,
+            "pattern": "[\\w\\W\\s]*",
+            "type": "string",
+            "description": "Descrição legível por humanos deste erro específico",
+            "exampleSetFlag": false
+        }
+    },
+    "exampleSetFlag": false
+}
+},
+"meta": {
+"required": [
+    "requestDateTime"
+],
+"type": "object",
+"properties": {
+    "requestDateTime": {
+        "maxLength": 20,
+        "type": "string",
+        "description": "Data e hora da consulta, conforme especificação RFC-3339, formato UTC.",
+        "exampleSetFlag": false
+    }
+},
+"description": "Meta informações referente à API requisitada.",
+"exampleSetFlag": false
+}
+},
+"exampleSetFlag": false
+},
+"exampleSetFlag": false
+}
+}
+},
+"context": {
+"url": "/accounts/{accountId}/overdraft-limits",
+"parameters": {},
+"method": "GET",
+"response": true,
+"request": false
+},
+"description": {
+"left": "Dados de limites da conta identificada por accountId obtidos com sucesso.",
+"right": "Erro inesperado.",
+"compatible": true,
+"incompatible": false,
+"unchanged": false,
+"different": true
+},
+"headers": {
+"oldHeaders": {
+"x-fapi-interaction-id": {
+"style": "SIMPLE",
+"explode": false,
+"schema": {
+"maxLength": 100,
+"pattern": "^[a-zA-Z0-9][a-zA-Z0-9\\-]{0,99}$",
+"type": "string",
+"description": "Um UID [RFC4122](https://tools.ietf.org/html/rfc4122) usado como um ID de correlação. Se fornecido, o transmissor deve \"reproduzir\" esse valor no cabeçalho de resposta.",
+"exampleSetFlag": false
+}
+}
+},
+"context": {
+"url": "/accounts/{accountId}/overdraft-limits",
+"parameters": {},
+"method": "GET",
+"response": true,
+"request": false
+},
+"increased": {},
+"missing": {
+"x-fapi-interaction-id": {
+"style": "SIMPLE",
+"explode": false,
+"schema": {
+"maxLength": 100,
+"pattern": "^[a-zA-Z0-9][a-zA-Z0-9\\-]{0,99}$",
+"type": "string",
+"description": "Um UID [RFC4122](https://tools.ietf.org/html/rfc4122) usado como um ID de correlação. Se fornecido, o transmissor deve \"reproduzir\" esse valor no cabeçalho de resposta.",
+"exampleSetFlag": false
+}
+}
+},
+"changed": {},
+"changedElements": [],
+"compatible": false,
+"incompatible": true,
+"unchanged": false,
+"different": true
+},
+"content": {
+"oldContent": {
+"application/json": {
+"schema": {
+"required": [
+"data",
+"links",
+"meta"
+],
+"type": "object",
+"properties": {
+"data": {
+"required": [
+    "overdraftContractedLimit",
+    "overdraftContractedLimitCurrency",
+    "overdraftUsedLimit",
+    "overdraftUsedLimitCurrency",
+    "unarrangedOverdraftAmount",
+    "unarrangedOverdraftAmountCurrency"
+],
+"type": "object",
+"properties": {
+    "overdraftContractedLimit": {
+        "maxLength": 20,
+        "minLength": 0,
+        "pattern": "^-?\\d{1,15}\\.\\d{2,4}$",
+        "type": "number",
+        "description": "Valor do limite contratado do cheque especial.",
+        "format": "double",
+        "nullable": true,
+        "example": 99.9999,
+        "exampleSetFlag": true
+    },
+    "overdraftContractedLimitCurrency": {
+        "maxLength": 3,
+        "pattern": "^(\\w{3}){1}$",
+        "type": "string",
+        "description": "Moeda referente ao valor do limite contratado do cheque especial, segundo modelo ISO-4217. p.ex. 'BRL'. Pode ser preenchido com “NA” caso a instituição não possua a informação.",
+        "example": "BRL",
+        "exampleSetFlag": true
+    },
+    "overdraftUsedLimit": {
+        "maxLength": 20,
+        "minLength": 0,
+        "pattern": "^-?\\d{1,15}\\.\\d{2,4}$",
+        "type": "number",
+        "description": "Valor utilizado total do limite do cheque especial e o adiantamento a depositante.",
+        "format": "double",
+        "nullable": true,
+        "example": 10000.9999,
+        "exampleSetFlag": true
+    },
+    "overdraftUsedLimitCurrency": {
+        "maxLength": 3,
+        "pattern": "^(\\w{3}){1}$",
+        "type": "string",
+        "description": "Moeda referente ao valor utilizado total do limite do cheque especial e o adiantamento a depositante, segundo modelo ISO-4217. p.ex. 'BRL'. Pode ser preenchido com “NA” caso a instituição não possua a informação.",
+        "example": "BRL",
+        "exampleSetFlag": true
+    },
+    "unarrangedOverdraftAmount": {
+        "maxLength": 20,
+        "minLength": 0,
+        "pattern": "^-?\\d{1,15}\\.\\d{2,4}$",
+        "type": "number",
+        "description": "Valor de operação contratada em caráter emergencial para cobertura de saldo devedor em conta de depósitos à vista e de excesso sobre o limite pactuado de cheque especial.",
+        "format": "double",
+        "nullable": true,
+        "example": 99.9999,
+        "exampleSetFlag": true
+    },
+    "unarrangedOverdraftAmountCurrency": {
+        "maxLength": 3,
+        "pattern": "^(\\w{3}){1}$",
+        "type": "string",
+        "description": "Moeda referente ao valor de operação contratada em caráter emergencial para cobertura de saldo devedor em conta de depósitos à vista e de excesso sobre o limite pactuado de cheque especial, segundo modelo ISO-4217. p.ex. 'BRL'. Pode ser preenchido com “NA” caso a instituição não possua a informação.",
+        "example": "BRL",
+        "exampleSetFlag": true
+    }
+},
+"additionalProperties": false,
+"description": "Conjunto de informações da Conta de: depósito à vista\n",
+"exampleSetFlag": false
+},
+"links": {
+"required": [
+    "self"
+],
+"type": "object",
+"properties": {
+    "self": {
+        "maxLength": 2000,
+        "pattern": "^(https?:\\/\\/)?(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{2,256}\\.[a-z]{2,6}\\b([-a-zA-Z0-9@:%_\\+.~#?&\\/\\/=]*)$",
+        "type": "string",
+        "description": "URI completo que gerou a resposta atual.",
+        "format": "uri",
+        "example": "https://api.banco.com.br/open-banking/api/v1/resource",
+        "exampleSetFlag": true
+    },
+    "first": {
+        "maxLength": 2000,
+        "pattern": "^(https?:\\/\\/)?(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{2,256}\\.[a-z]{2,6}\\b([-a-zA-Z0-9@:%_\\+.~#?&\\/\\/=]*)$",
+        "type": "string",
+        "description": "URI da primeira página que originou essa lista de resultados. Restrição - Obrigatório quando não for a primeira página da resposta",
+        "format": "uri",
+        "example": "https://api.banco.com.br/open-banking/api/v1/resource",
+        "exampleSetFlag": true
+    },
+    "prev": {
+        "maxLength": 2000,
+        "pattern": "^(https?:\\/\\/)?(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{2,256}\\.[a-z]{2,6}\\b([-a-zA-Z0-9@:%_\\+.~#?&\\/\\/=]*)$",
+        "type": "string",
+        "description": "URI da página anterior dessa lista de resultados. Restrição - \tObrigatório quando não for a primeira página da resposta",
+        "format": "uri",
+        "example": "https://api.banco.com.br/open-banking/api/v1/resource",
+        "exampleSetFlag": true
+    },
+    "next": {
+        "maxLength": 2000,
+        "pattern": "^(https?:\\/\\/)?(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{2,256}\\.[a-z]{2,6}\\b([-a-zA-Z0-9@:%_\\+.~#?&\\/\\/=]*)$",
+        "type": "string",
+        "description": "URI da próxima página dessa lista de resultados. Restrição - Obrigatório quando não for a última página da resposta",
+        "format": "uri",
+        "example": "https://api.banco.com.br/open-banking/api/v1/resource",
+        "exampleSetFlag": true
+    },
+    "last": {
+        "maxLength": 2000,
+        "pattern": "^(https?:\\/\\/)?(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{2,256}\\.[a-z]{2,6}\\b([-a-zA-Z0-9@:%_\\+.~#?&\\/\\/=]*)$",
+        "type": "string",
+        "description": "URI da última página dessa lista de resultados. Restrição - Obrigatório quando não for a última página da resposta",
+        "format": "uri",
+        "example": "https://api.banco.com.br/open-banking/api/v1/resource",
+        "exampleSetFlag": true
+    }
+},
+"additionalProperties": false,
+"description": "Referências para outros recusos da API requisitada.",
+"exampleSetFlag": false
+},
+"meta": {
+"required": [
+    "requestDateTime",
+    "totalPages",
+    "totalRecords"
+],
+"type": "object",
+"properties": {
+    "totalRecords": {
+        "type": "integer",
+        "description": "Número total de registros no resultado",
+        "format": "int32",
+        "example": 1,
+        "exampleSetFlag": true
+    },
+    "totalPages": {
+        "type": "integer",
+        "description": "Número total de páginas no resultado",
+        "format": "int32",
+        "example": 1,
+        "exampleSetFlag": true
+    },
+    "requestDateTime": {
+        "maxLength": 20,
+        "type": "string",
+        "description": "Data e hora da consulta, conforme especificação RFC-3339, formato UTC.",
+        "exampleSetFlag": false
+    }
+},
+"additionalProperties": false,
+"description": "Meta informações referente à API requisitada.",
+"exampleSetFlag": false
+}
+},
+"additionalProperties": false,
+"exampleSetFlag": false
+},
+"exampleSetFlag": false
+}
+},
+"newContent": {
+"application/json; charset=utf-8": {
+"schema": {
+"required": [
+"errors"
+],
+"type": "object",
+"properties": {
+"errors": {
+"maxItems": 13,
+"minItems": 1,
+"type": "array",
+"exampleSetFlag": false,
+"items": {
+    "required": [
+        "code",
+        "detail",
+        "title"
+    ],
+    "type": "object",
+    "properties": {
+        "code": {
+            "maxLength": 255,
+            "pattern": "[\\w\\W\\s]*",
+            "type": "string",
+            "description": "Código de erro específico do endpoint",
+            "exampleSetFlag": false
+        },
+        "title": {
+            "maxLength": 255,
+            "pattern": "[\\w\\W\\s]*",
+            "type": "string",
+            "description": "Título legível por humanos deste erro específico",
+            "exampleSetFlag": false
+        },
+        "detail": {
+            "maxLength": 2048,
+            "pattern": "[\\w\\W\\s]*",
+            "type": "string",
+            "description": "Descrição legível por humanos deste erro específico",
+            "exampleSetFlag": false
+        }
+    },
+    "exampleSetFlag": false
+}
+},
+"meta": {
+"required": [
+    "requestDateTime"
+],
+"type": "object",
+"properties": {
+    "requestDateTime": {
+        "maxLength": 20,
+        "type": "string",
+        "description": "Data e hora da consulta, conforme especificação RFC-3339, formato UTC.",
+        "exampleSetFlag": false
+    }
+},
+"description": "Meta informações referente à API requisitada.",
+"exampleSetFlag": false
+}
+},
+"exampleSetFlag": false
+},
+"exampleSetFlag": false
+}
+},
+"context": {
+"url": "/accounts/{accountId}/overdraft-limits",
+"parameters": {},
+"method": "GET",
+"response": true,
+"request": false
+},
+"increased": {
+"application/json; charset=utf-8": {
+"schema": {
+"required": [
+"errors"
+],
+"type": "object",
+"properties": {
+"errors": {
+"maxItems": 13,
+"minItems": 1,
+"type": "array",
+"exampleSetFlag": false,
+"items": {
+    "required": [
+        "code",
+        "detail",
+        "title"
+    ],
+    "type": "object",
+    "properties": {
+        "code": {
+            "maxLength": 255,
+            "pattern": "[\\w\\W\\s]*",
+            "type": "string",
+            "description": "Código de erro específico do endpoint",
+            "exampleSetFlag": false
+        },
+        "title": {
+            "maxLength": 255,
+            "pattern": "[\\w\\W\\s]*",
+            "type": "string",
+            "description": "Título legível por humanos deste erro específico",
+            "exampleSetFlag": false
+        },
+        "detail": {
+            "maxLength": 2048,
+            "pattern": "[\\w\\W\\s]*",
+            "type": "string",
+            "description": "Descrição legível por humanos deste erro específico",
+            "exampleSetFlag": false
+        }
+    },
+    "exampleSetFlag": false
+}
+},
+"meta": {
+"required": [
+    "requestDateTime"
+],
+"type": "object",
+"properties": {
+    "requestDateTime": {
+        "maxLength": 20,
+        "type": "string",
+        "description": "Data e hora da consulta, conforme especificação RFC-3339, formato UTC.",
+        "exampleSetFlag": false
+    }
+},
+"description": "Meta informações referente à API requisitada.",
+"exampleSetFlag": false
+}
+},
+"exampleSetFlag": false
+},
+"exampleSetFlag": false
+}
+},
+"missing": {
+"application/json": {
+"schema": {
+"required": [
+"data",
+"links",
+"meta"
+],
+"type": "object",
+"properties": {
+"data": {
+"required": [
+    "overdraftContractedLimit",
+    "overdraftContractedLimitCurrency",
+    "overdraftUsedLimit",
+    "overdraftUsedLimitCurrency",
+    "unarrangedOverdraftAmount",
+    "unarrangedOverdraftAmountCurrency"
+],
+"type": "object",
+"properties": {
+    "overdraftContractedLimit": {
+        "maxLength": 20,
+        "minLength": 0,
+        "pattern": "^-?\\d{1,15}\\.\\d{2,4}$",
+        "type": "number",
+        "description": "Valor do limite contratado do cheque especial.",
+        "format": "double",
+        "nullable": true,
+        "example": 99.9999,
+        "exampleSetFlag": true
+    },
+    "overdraftContractedLimitCurrency": {
+        "maxLength": 3,
+        "pattern": "^(\\w{3}){1}$",
+        "type": "string",
+        "description": "Moeda referente ao valor do limite contratado do cheque especial, segundo modelo ISO-4217. p.ex. 'BRL'. Pode ser preenchido com “NA” caso a instituição não possua a informação.",
+        "example": "BRL",
+        "exampleSetFlag": true
+    },
+    "overdraftUsedLimit": {
+        "maxLength": 20,
+        "minLength": 0,
+        "pattern": "^-?\\d{1,15}\\.\\d{2,4}$",
+        "type": "number",
+        "description": "Valor utilizado total do limite do cheque especial e o adiantamento a depositante.",
+        "format": "double",
+        "nullable": true,
+        "example": 10000.9999,
+        "exampleSetFlag": true
+    },
+    "overdraftUsedLimitCurrency": {
+        "maxLength": 3,
+        "pattern": "^(\\w{3}){1}$",
+        "type": "string",
+        "description": "Moeda referente ao valor utilizado total do limite do cheque especial e o adiantamento a depositante, segundo modelo ISO-4217. p.ex. 'BRL'. Pode ser preenchido com “NA” caso a instituição não possua a informação.",
+        "example": "BRL",
+        "exampleSetFlag": true
+    },
+    "unarrangedOverdraftAmount": {
+        "maxLength": 20,
+        "minLength": 0,
+        "pattern": "^-?\\d{1,15}\\.\\d{2,4}$",
+        "type": "number",
+        "description": "Valor de operação contratada em caráter emergencial para cobertura de saldo devedor em conta de depósitos à vista e de excesso sobre o limite pactuado de cheque especial.",
+        "format": "double",
+        "nullable": true,
+        "example": 99.9999,
+        "exampleSetFlag": true
+    },
+    "unarrangedOverdraftAmountCurrency": {
+        "maxLength": 3,
+        "pattern": "^(\\w{3}){1}$",
+        "type": "string",
+        "description": "Moeda referente ao valor de operação contratada em caráter emergencial para cobertura de saldo devedor em conta de depósitos à vista e de excesso sobre o limite pactuado de cheque especial, segundo modelo ISO-4217. p.ex. 'BRL'. Pode ser preenchido com “NA” caso a instituição não possua a informação.",
+        "example": "BRL",
+        "exampleSetFlag": true
+    }
+},
+"additionalProperties": false,
+"description": "Conjunto de informações da Conta de: depósito à vista\n",
+"exampleSetFlag": false
+},
+"links": {
+"required": [
+    "self"
+],
+"type": "object",
+"properties": {
+    "self": {
+        "maxLength": 2000,
+        "pattern": "^(https?:\\/\\/)?(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{2,256}\\.[a-z]{2,6}\\b([-a-zA-Z0-9@:%_\\+.~#?&\\/\\/=]*)$",
+        "type": "string",
+        "description": "URI completo que gerou a resposta atual.",
+        "format": "uri",
+        "example": "https://api.banco.com.br/open-banking/api/v1/resource",
+        "exampleSetFlag": true
+    },
+    "first": {
+        "maxLength": 2000,
+        "pattern": "^(https?:\\/\\/)?(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{2,256}\\.[a-z]{2,6}\\b([-a-zA-Z0-9@:%_\\+.~#?&\\/\\/=]*)$",
+        "type": "string",
+        "description": "URI da primeira página que originou essa lista de resultados. Restrição - Obrigatório quando não for a primeira página da resposta",
+        "format": "uri",
+        "example": "https://api.banco.com.br/open-banking/api/v1/resource",
+        "exampleSetFlag": true
+    },
+    "prev": {
+        "maxLength": 2000,
+        "pattern": "^(https?:\\/\\/)?(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{2,256}\\.[a-z]{2,6}\\b([-a-zA-Z0-9@:%_\\+.~#?&\\/\\/=]*)$",
+        "type": "string",
+        "description": "URI da página anterior dessa lista de resultados. Restrição - \tObrigatório quando não for a primeira página da resposta",
+        "format": "uri",
+        "example": "https://api.banco.com.br/open-banking/api/v1/resource",
+        "exampleSetFlag": true
+    },
+    "next": {
+        "maxLength": 2000,
+        "pattern": "^(https?:\\/\\/)?(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{2,256}\\.[a-z]{2,6}\\b([-a-zA-Z0-9@:%_\\+.~#?&\\/\\/=]*)$",
+        "type": "string",
+        "description": "URI da próxima página dessa lista de resultados. Restrição - Obrigatório quando não for a última página da resposta",
+        "format": "uri",
+        "example": "https://api.banco.com.br/open-banking/api/v1/resource",
+        "exampleSetFlag": true
+    },
+    "last": {
+        "maxLength": 2000,
+        "pattern": "^(https?:\\/\\/)?(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{2,256}\\.[a-z]{2,6}\\b([-a-zA-Z0-9@:%_\\+.~#?&\\/\\/=]*)$",
+        "type": "string",
+        "description": "URI da última página dessa lista de resultados. Restrição - Obrigatório quando não for a última página da resposta",
+        "format": "uri",
+        "example": "https://api.banco.com.br/open-banking/api/v1/resource",
+        "exampleSetFlag": true
+    }
+},
+"additionalProperties": false,
+"description": "Referências para outros recusos da API requisitada.",
+"exampleSetFlag": false
+},
+"meta": {
+"required": [
+    "requestDateTime",
+    "totalPages",
+    "totalRecords"
+],
+"type": "object",
+"properties": {
+    "totalRecords": {
+        "type": "integer",
+        "description": "Número total de registros no resultado",
+        "format": "int32",
+        "example": 1,
+        "exampleSetFlag": true
+    },
+    "totalPages": {
+        "type": "integer",
+        "description": "Número total de páginas no resultado",
+        "format": "int32",
+        "example": 1,
+        "exampleSetFlag": true
+    },
+    "requestDateTime": {
+        "maxLength": 20,
+        "type": "string",
+        "description": "Data e hora da consulta, conforme especificação RFC-3339, formato UTC.",
+        "exampleSetFlag": false
+    }
+},
+"additionalProperties": false,
+"description": "Meta informações referente à API requisitada.",
+"exampleSetFlag": false
+}
+},
+"additionalProperties": false,
+"exampleSetFlag": false
+},
+"exampleSetFlag": false
+}
+},
+"changed": {},
+"changedElements": [],
+"compatible": false,
+"incompatible": true,
+"unchanged": false,
+"different": true
+},
+"changedElements": [
+{
+"left": "Dados de limites da conta identificada por accountId obtidos com sucesso.",
+"right": "Erro inesperado.",
+"compatible": true,
+"incompatible": false,
+"unchanged": false,
+"different": true
+},
+{
+"oldHeaders": {
+"x-fapi-interaction-id": {
+"style": "SIMPLE",
+"explode": false,
+"schema": {
+"maxLength": 100,
+"pattern": "^[a-zA-Z0-9][a-zA-Z0-9\\-]{0,99}$",
+"type": "string",
+"description": "Um UID [RFC4122](https://tools.ietf.org/html/rfc4122) usado como um ID de correlação. Se fornecido, o transmissor deve \"reproduzir\" esse valor no cabeçalho de resposta.",
+"exampleSetFlag": false
+}
+}
+},
+"context": {
+"url": "/accounts/{accountId}/overdraft-limits",
+"parameters": {},
+"method": "GET",
+"response": true,
+"request": false
+},
+"increased": {},
+"missing": {
+"x-fapi-interaction-id": {
+"style": "SIMPLE",
+"explode": false,
+"schema": {
+"maxLength": 100,
+"pattern": "^[a-zA-Z0-9][a-zA-Z0-9\\-]{0,99}$",
+"type": "string",
+"description": "Um UID [RFC4122](https://tools.ietf.org/html/rfc4122) usado como um ID de correlação. Se fornecido, o transmissor deve \"reproduzir\" esse valor no cabeçalho de resposta.",
+"exampleSetFlag": false
+}
+}
+},
+"changed": {},
+"changedElements": [],
+"compatible": false,
+"incompatible": true,
+"unchanged": false,
+"different": true
+},
+{
+"oldContent": {
+"application/json": {
+"schema": {
+"required": [
+"data",
+"links",
+"meta"
+],
+"type": "object",
+"properties": {
+"data": {
+    "required": [
+        "overdraftContractedLimit",
+        "overdraftContractedLimitCurrency",
+        "overdraftUsedLimit",
+        "overdraftUsedLimitCurrency",
+        "unarrangedOverdraftAmount",
+        "unarrangedOverdraftAmountCurrency"
+    ],
+    "type": "object",
+    "properties": {
+        "overdraftContractedLimit": {
+            "maxLength": 20,
+            "minLength": 0,
+            "pattern": "^-?\\d{1,15}\\.\\d{2,4}$",
+            "type": "number",
+            "description": "Valor do limite contratado do cheque especial.",
+            "format": "double",
+            "nullable": true,
+            "example": 99.9999,
+            "exampleSetFlag": true
+        },
+        "overdraftContractedLimitCurrency": {
+            "maxLength": 3,
+            "pattern": "^(\\w{3}){1}$",
+            "type": "string",
+            "description": "Moeda referente ao valor do limite contratado do cheque especial, segundo modelo ISO-4217. p.ex. 'BRL'. Pode ser preenchido com “NA” caso a instituição não possua a informação.",
+            "example": "BRL",
+            "exampleSetFlag": true
+        },
+        "overdraftUsedLimit": {
+            "maxLength": 20,
+            "minLength": 0,
+            "pattern": "^-?\\d{1,15}\\.\\d{2,4}$",
+            "type": "number",
+            "description": "Valor utilizado total do limite do cheque especial e o adiantamento a depositante.",
+            "format": "double",
+            "nullable": true,
+            "example": 10000.9999,
+            "exampleSetFlag": true
+        },
+        "overdraftUsedLimitCurrency": {
+            "maxLength": 3,
+            "pattern": "^(\\w{3}){1}$",
+            "type": "string",
+            "description": "Moeda referente ao valor utilizado total do limite do cheque especial e o adiantamento a depositante, segundo modelo ISO-4217. p.ex. 'BRL'. Pode ser preenchido com “NA” caso a instituição não possua a informação.",
+            "example": "BRL",
+            "exampleSetFlag": true
+        },
+        "unarrangedOverdraftAmount": {
+            "maxLength": 20,
+            "minLength": 0,
+            "pattern": "^-?\\d{1,15}\\.\\d{2,4}$",
+            "type": "number",
+            "description": "Valor de operação contratada em caráter emergencial para cobertura de saldo devedor em conta de depósitos à vista e de excesso sobre o limite pactuado de cheque especial.",
+            "format": "double",
+            "nullable": true,
+            "example": 99.9999,
+            "exampleSetFlag": true
+        },
+        "unarrangedOverdraftAmountCurrency": {
+            "maxLength": 3,
+            "pattern": "^(\\w{3}){1}$",
+            "type": "string",
+            "description": "Moeda referente ao valor de operação contratada em caráter emergencial para cobertura de saldo devedor em conta de depósitos à vista e de excesso sobre o limite pactuado de cheque especial, segundo modelo ISO-4217. p.ex. 'BRL'. Pode ser preenchido com “NA” caso a instituição não possua a informação.",
+            "example": "BRL",
+            "exampleSetFlag": true
+        }
+    },
+    "additionalProperties": false,
+    "description": "Conjunto de informações da Conta de: depósito à vista\n",
+    "exampleSetFlag": false
+},
+"links": {
+    "required": [
+        "self"
+    ],
+    "type": "object",
+    "properties": {
+        "self": {
+            "maxLength": 2000,
+            "pattern": "^(https?:\\/\\/)?(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{2,256}\\.[a-z]{2,6}\\b([-a-zA-Z0-9@:%_\\+.~#?&\\/\\/=]*)$",
+            "type": "string",
+            "description": "URI completo que gerou a resposta atual.",
+            "format": "uri",
+            "example": "https://api.banco.com.br/open-banking/api/v1/resource",
+            "exampleSetFlag": true
+        },
+        "first": {
+            "maxLength": 2000,
+            "pattern": "^(https?:\\/\\/)?(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{2,256}\\.[a-z]{2,6}\\b([-a-zA-Z0-9@:%_\\+.~#?&\\/\\/=]*)$",
+            "type": "string",
+            "description": "URI da primeira página que originou essa lista de resultados. Restrição - Obrigatório quando não for a primeira página da resposta",
+            "format": "uri",
+            "example": "https://api.banco.com.br/open-banking/api/v1/resource",
+            "exampleSetFlag": true
+        },
+        "prev": {
+            "maxLength": 2000,
+            "pattern": "^(https?:\\/\\/)?(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{2,256}\\.[a-z]{2,6}\\b([-a-zA-Z0-9@:%_\\+.~#?&\\/\\/=]*)$",
+            "type": "string",
+            "description": "URI da página anterior dessa lista de resultados. Restrição - \tObrigatório quando não for a primeira página da resposta",
+            "format": "uri",
+            "example": "https://api.banco.com.br/open-banking/api/v1/resource",
+            "exampleSetFlag": true
+        },
+        "next": {
+            "maxLength": 2000,
+            "pattern": "^(https?:\\/\\/)?(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{2,256}\\.[a-z]{2,6}\\b([-a-zA-Z0-9@:%_\\+.~#?&\\/\\/=]*)$",
+            "type": "string",
+            "description": "URI da próxima página dessa lista de resultados. Restrição - Obrigatório quando não for a última página da resposta",
+            "format": "uri",
+            "example": "https://api.banco.com.br/open-banking/api/v1/resource",
+            "exampleSetFlag": true
+        },
+        "last": {
+            "maxLength": 2000,
+            "pattern": "^(https?:\\/\\/)?(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{2,256}\\.[a-z]{2,6}\\b([-a-zA-Z0-9@:%_\\+.~#?&\\/\\/=]*)$",
+            "type": "string",
+            "description": "URI da última página dessa lista de resultados. Restrição - Obrigatório quando não for a última página da resposta",
+            "format": "uri",
+            "example": "https://api.banco.com.br/open-banking/api/v1/resource",
+            "exampleSetFlag": true
+        }
+    },
+    "additionalProperties": false,
+    "description": "Referências para outros recusos da API requisitada.",
+    "exampleSetFlag": false
+},
+"meta": {
+    "required": [
+        "requestDateTime",
+        "totalPages",
+        "totalRecords"
+    ],
+    "type": "object",
+    "properties": {
+        "totalRecords": {
+            "type": "integer",
+            "description": "Número total de registros no resultado",
+            "format": "int32",
+            "example": 1,
+            "exampleSetFlag": true
+        },
+        "totalPages": {
+            "type": "integer",
+            "description": "Número total de páginas no resultado",
+            "format": "int32",
+            "example": 1,
+            "exampleSetFlag": true
+        },
+        "requestDateTime": {
+            "maxLength": 20,
+            "type": "string",
+            "description": "Data e hora da consulta, conforme especificação RFC-3339, formato UTC.",
+            "exampleSetFlag": false
+        }
+    },
+    "additionalProperties": false,
+    "description": "Meta informações referente à API requisitada.",
+    "exampleSetFlag": false
+}
+},
+"additionalProperties": false,
+"exampleSetFlag": false
+},
+"exampleSetFlag": false
+}
+},
+"newContent": {
+"application/json; charset=utf-8": {
+"schema": {
+"required": [
+"errors"
+],
+"type": "object",
+"properties": {
+"errors": {
+    "maxItems": 13,
+    "minItems": 1,
+    "type": "array",
+    "exampleSetFlag": false,
+    "items": {
+        "required": [
+            "code",
+            "detail",
+            "title"
+        ],
+        "type": "object",
+        "properties": {
+            "code": {
+                "maxLength": 255,
+                "pattern": "[\\w\\W\\s]*",
+                "type": "string",
+                "description": "Código de erro específico do endpoint",
+                "exampleSetFlag": false
+            },
+            "title": {
+                "maxLength": 255,
+                "pattern": "[\\w\\W\\s]*",
+                "type": "string",
+                "description": "Título legível por humanos deste erro específico",
+                "exampleSetFlag": false
+            },
+            "detail": {
+                "maxLength": 2048,
+                "pattern": "[\\w\\W\\s]*",
+                "type": "string",
+                "description": "Descrição legível por humanos deste erro específico",
+                "exampleSetFlag": false
+            }
+        },
+        "exampleSetFlag": false
+    }
+},
+"meta": {
+    "required": [
+        "requestDateTime"
+    ],
+    "type": "object",
+    "properties": {
+        "requestDateTime": {
+            "maxLength": 20,
+            "type": "string",
+            "description": "Data e hora da consulta, conforme especificação RFC-3339, formato UTC.",
+            "exampleSetFlag": false
+        }
+    },
+    "description": "Meta informações referente à API requisitada.",
+    "exampleSetFlag": false
+}
+},
+"exampleSetFlag": false
+},
+"exampleSetFlag": false
+}
+},
+"context": {
+"url": "/accounts/{accountId}/overdraft-limits",
+"parameters": {},
+"method": "GET",
+"response": true,
+"request": false
+},
+"increased": {
+"application/json; charset=utf-8": {
+"schema": {
+"required": [
+"errors"
+],
+"type": "object",
+"properties": {
+"errors": {
+    "maxItems": 13,
+    "minItems": 1,
+    "type": "array",
+    "exampleSetFlag": false,
+    "items": {
+        "required": [
+            "code",
+            "detail",
+            "title"
+        ],
+        "type": "object",
+        "properties": {
+            "code": {
+                "maxLength": 255,
+                "pattern": "[\\w\\W\\s]*",
+                "type": "string",
+                "description": "Código de erro específico do endpoint",
+                "exampleSetFlag": false
+            },
+            "title": {
+                "maxLength": 255,
+                "pattern": "[\\w\\W\\s]*",
+                "type": "string",
+                "description": "Título legível por humanos deste erro específico",
+                "exampleSetFlag": false
+            },
+            "detail": {
+                "maxLength": 2048,
+                "pattern": "[\\w\\W\\s]*",
+                "type": "string",
+                "description": "Descrição legível por humanos deste erro específico",
+                "exampleSetFlag": false
+            }
+        },
+        "exampleSetFlag": false
+    }
+},
+"meta": {
+    "required": [
+        "requestDateTime"
+    ],
+    "type": "object",
+    "properties": {
+        "requestDateTime": {
+            "maxLength": 20,
+            "type": "string",
+            "description": "Data e hora da consulta, conforme especificação RFC-3339, formato UTC.",
+            "exampleSetFlag": false
+        }
+    },
+    "description": "Meta informações referente à API requisitada.",
+    "exampleSetFlag": false
+}
+},
+"exampleSetFlag": false
+},
+"exampleSetFlag": false
+}
+},
+"missing": {
+"application/json": {
+"schema": {
+"required": [
+"data",
+"links",
+"meta"
+],
+"type": "object",
+"properties": {
+"data": {
+    "required": [
+        "overdraftContractedLimit",
+        "overdraftContractedLimitCurrency",
+        "overdraftUsedLimit",
+        "overdraftUsedLimitCurrency",
+        "unarrangedOverdraftAmount",
+        "unarrangedOverdraftAmountCurrency"
+    ],
+    "type": "object",
+    "properties": {
+        "overdraftContractedLimit": {
+            "maxLength": 20,
+            "minLength": 0,
+            "pattern": "^-?\\d{1,15}\\.\\d{2,4}$",
+            "type": "number",
+            "description": "Valor do limite contratado do cheque especial.",
+            "format": "double",
+            "nullable": true,
+            "example": 99.9999,
+            "exampleSetFlag": true
+        },
+        "overdraftContractedLimitCurrency": {
+            "maxLength": 3,
+            "pattern": "^(\\w{3}){1}$",
+            "type": "string",
+            "description": "Moeda referente ao valor do limite contratado do cheque especial, segundo modelo ISO-4217. p.ex. 'BRL'. Pode ser preenchido com “NA” caso a instituição não possua a informação.",
+            "example": "BRL",
+            "exampleSetFlag": true
+        },
+        "overdraftUsedLimit": {
+            "maxLength": 20,
+            "minLength": 0,
+            "pattern": "^-?\\d{1,15}\\.\\d{2,4}$",
+            "type": "number",
+            "description": "Valor utilizado total do limite do cheque especial e o adiantamento a depositante.",
+            "format": "double",
+            "nullable": true,
+            "example": 10000.9999,
+            "exampleSetFlag": true
+        },
+        "overdraftUsedLimitCurrency": {
+            "maxLength": 3,
+            "pattern": "^(\\w{3}){1}$",
+            "type": "string",
+            "description": "Moeda referente ao valor utilizado total do limite do cheque especial e o adiantamento a depositante, segundo modelo ISO-4217. p.ex. 'BRL'. Pode ser preenchido com “NA” caso a instituição não possua a informação.",
+            "example": "BRL",
+            "exampleSetFlag": true
+        },
+        "unarrangedOverdraftAmount": {
+            "maxLength": 20,
+            "minLength": 0,
+            "pattern": "^-?\\d{1,15}\\.\\d{2,4}$",
+            "type": "number",
+            "description": "Valor de operação contratada em caráter emergencial para cobertura de saldo devedor em conta de depósitos à vista e de excesso sobre o limite pactuado de cheque especial.",
+            "format": "double",
+            "nullable": true,
+            "example": 99.9999,
+            "exampleSetFlag": true
+        },
+        "unarrangedOverdraftAmountCurrency": {
+            "maxLength": 3,
+            "pattern": "^(\\w{3}){1}$",
+            "type": "string",
+            "description": "Moeda referente ao valor de operação contratada em caráter emergencial para cobertura de saldo devedor em conta de depósitos à vista e de excesso sobre o limite pactuado de cheque especial, segundo modelo ISO-4217. p.ex. 'BRL'. Pode ser preenchido com “NA” caso a instituição não possua a informação.",
+            "example": "BRL",
+            "exampleSetFlag": true
+        }
+    },
+    "additionalProperties": false,
+    "description": "Conjunto de informações da Conta de: depósito à vista\n",
+    "exampleSetFlag": false
+},
+"links": {
+    "required": [
+        "self"
+    ],
+    "type": "object",
+    "properties": {
+        "self": {
+            "maxLength": 2000,
+            "pattern": "^(https?:\\/\\/)?(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{2,256}\\.[a-z]{2,6}\\b([-a-zA-Z0-9@:%_\\+.~#?&\\/\\/=]*)$",
+            "type": "string",
+            "description": "URI completo que gerou a resposta atual.",
+            "format": "uri",
+            "example": "https://api.banco.com.br/open-banking/api/v1/resource",
+            "exampleSetFlag": true
+        },
+        "first": {
+            "maxLength": 2000,
+            "pattern": "^(https?:\\/\\/)?(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{2,256}\\.[a-z]{2,6}\\b([-a-zA-Z0-9@:%_\\+.~#?&\\/\\/=]*)$",
+            "type": "string",
+            "description": "URI da primeira página que originou essa lista de resultados. Restrição - Obrigatório quando não for a primeira página da resposta",
+            "format": "uri",
+            "example": "https://api.banco.com.br/open-banking/api/v1/resource",
+            "exampleSetFlag": true
+        },
+        "prev": {
+            "maxLength": 2000,
+            "pattern": "^(https?:\\/\\/)?(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{2,256}\\.[a-z]{2,6}\\b([-a-zA-Z0-9@:%_\\+.~#?&\\/\\/=]*)$",
+            "type": "string",
+            "description": "URI da página anterior dessa lista de resultados. Restrição - \tObrigatório quando não for a primeira página da resposta",
+            "format": "uri",
+            "example": "https://api.banco.com.br/open-banking/api/v1/resource",
+            "exampleSetFlag": true
+        },
+        "next": {
+            "maxLength": 2000,
+            "pattern": "^(https?:\\/\\/)?(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{2,256}\\.[a-z]{2,6}\\b([-a-zA-Z0-9@:%_\\+.~#?&\\/\\/=]*)$",
+            "type": "string",
+            "description": "URI da próxima página dessa lista de resultados. Restrição - Obrigatório quando não for a última página da resposta",
+            "format": "uri",
+            "example": "https://api.banco.com.br/open-banking/api/v1/resource",
+            "exampleSetFlag": true
+        },
+        "last": {
+            "maxLength": 2000,
+            "pattern": "^(https?:\\/\\/)?(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{2,256}\\.[a-z]{2,6}\\b([-a-zA-Z0-9@:%_\\+.~#?&\\/\\/=]*)$",
+            "type": "string",
+            "description": "URI da última página dessa lista de resultados. Restrição - Obrigatório quando não for a última página da resposta",
+            "format": "uri",
+            "example": "https://api.banco.com.br/open-banking/api/v1/resource",
+            "exampleSetFlag": true
+        }
+    },
+    "additionalProperties": false,
+    "description": "Referências para outros recusos da API requisitada.",
+    "exampleSetFlag": false
+},
+"meta": {
+    "required": [
+        "requestDateTime",
+        "totalPages",
+        "totalRecords"
+    ],
+    "type": "object",
+    "properties": {
+        "totalRecords": {
+            "type": "integer",
+            "description": "Número total de registros no resultado",
+            "format": "int32",
+            "example": 1,
+            "exampleSetFlag": true
+        },
+        "totalPages": {
+            "type": "integer",
+            "description": "Número total de páginas no resultado",
+            "format": "int32",
+            "example": 1,
+            "exampleSetFlag": true
+        },
+        "requestDateTime": {
+            "maxLength": 20,
+            "type": "string",
+            "description": "Data e hora da consulta, conforme especificação RFC-3339, formato UTC.",
+            "exampleSetFlag": false
+        }
+    },
+    "additionalProperties": false,
+    "description": "Meta informações referente à API requisitada.",
+    "exampleSetFlag": false
+}
+},
+"additionalProperties": false,
+"exampleSetFlag": false
+},
+"exampleSetFlag": false
+}
+},
+"changed": {},
+"changedElements": [],
+"compatible": false,
+"incompatible": true,
+"unchanged": false,
+"different": true
+},
+null
+],
+"compatible": false,
+"incompatible": true,
+"unchanged": false,
+"different": true
+},
+null
+],
+"compatible": false,
+"incompatible": true,
+"unchanged": false,
+"different": true
+},
+null,
+null
+],
+"compatible": false,
+"incompatible": true,
+"unchanged": false,
+"different": true
+},
+null
+],
+"deprecatedEndpoints": [],
+"compatible": false,
+"incompatible": true,
+"unchanged": false,
+"different": true
+}

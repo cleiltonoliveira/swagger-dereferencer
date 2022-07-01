@@ -1,0 +1,15 @@
+{
+  "name": "swagger-parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apidevtools/swagger-cli": "^4.0.4",
+    "@apidevtools/swagger-parser": "^10.1.0"
+  }
+}
